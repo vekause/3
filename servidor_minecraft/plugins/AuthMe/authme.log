@@ -1,0 +1,37 @@
+[03-27 19:42:00]: [INFO] Created column 'regdate' and set the current timestamp, 1743104520282, to all 0 rows
+[03-27 19:42:00]: [INFO] SQLite Setup finished
+[03-27 19:42:00]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 19:42:00]: [INFO] Hooked successfully into Essentials
+[03-27 19:42:00]: [INFO] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
+[03-27 19:42:00]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-27 19:42:00]: [INFO] AuthMeReReloaded is running on Paper
+[03-27 19:42:00]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-27 19:42:00]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-27 19:42:00]: [INFO] Checking for updates...
+[03-27 19:42:01]: [INFO] You are running the latest version.
+[03-27 19:44:17]: [INFO:FINE] BekauseELF registered 127.138.209.14
+[03-27 19:44:17]: [INFO:FINE] BekauseELF logged in 127.138.209.14
+[03-27 19:45:20]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-27 19:47:41]: [INFO] SQLite Setup finished
+[03-27 19:47:42]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 19:47:42]: [INFO] Hooked successfully into Essentials
+[03-27 19:47:42]: [INFO] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
+[03-27 19:47:42]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-27 19:47:42]: [INFO] AuthMeReReloaded is running on Paper
+[03-27 19:47:42]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-27 19:47:42]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-27 19:47:42]: [INFO] Checking for updates...
+[03-27 19:47:43]: [INFO] You are running the latest version.
+[03-27 19:47:57]: [INFO:FINE] BekauseELF logged in 127.138.209.14
