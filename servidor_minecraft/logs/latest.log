@@ -428,3 +428,7 @@
 [19:52:54] [Server thread/INFO]: Made BekauseELF a server operator
 [19:53:39] [Server thread/INFO]: BekauseELF issued server command: /npc create
 [19:53:39] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:01:21] [Server thread/INFO]: BekauseELF issued server command: /npc create
+[20:06:04] [Server thread/INFO]: BekauseELF issued server command: /time set day
+[20:06:19] [Server thread/INFO]: BekauseELF has made the advancement [Monster Hunter]
+[20:07:14] [Server thread/INFO]: BekauseELF issued server command: /time set day
