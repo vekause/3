@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1743104717326
+  logout: 1743106492645
   login: 1743104877305
 money: '0'
 last-account-name: BekauseELF
 logoutlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 287.250640605607
-  y: 67.0
-  z: 508.0080936866319
-  yaw: -29.502838134765625
-  pitch: 18.062776565551758
+  x: 238.65110515283266
+  y: 65.9375
+  z: 409.3660726766584
+  yaw: 18.782617568969727
+  pitch: 6.246735572814941
