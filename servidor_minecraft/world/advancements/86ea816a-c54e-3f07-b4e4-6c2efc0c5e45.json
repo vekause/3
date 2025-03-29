@@ -1,0 +1,156 @@
+{
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-03-29 01:06:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-29 01:06:28 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2025-03-29 01:06:28 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-03-29 01:12:13 +0000",
+      "minecraft:river": "2025-03-29 01:10:31 +0000",
+      "minecraft:snowy_taiga": "2025-03-29 01:13:33 +0000",
+      "minecraft:plains": "2025-03-29 01:06:29 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2025-03-29 01:06:39 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-03-29 01:13:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_shovel": "2025-03-29 01:10:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-03-29 01:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_shovel": "2025-03-29 01:10:33 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/shrublands": {
+    "criteria": {
+      "requirement": "2025-03-29 01:13:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-03-29 01:10:10 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/terralith/moonlight_grove": {
+    "criteria": {
+      "requirement": "2025-03-29 01:10:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-03-29 01:12:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/snowy_taiga": {
+    "criteria": {
+      "requirement": "2025-03-29 01:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-03-29 01:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-03-29 01:10:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-03-29 01:12:45 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

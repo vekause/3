@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.151.2.191
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1743210980899
+  login: 1743210581076
+money: '0'
+last-account-name: Nartic_MC
+lastlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 293.69999998807907
+  y: 69.0
+  z: 472.74432165729684
+  yaw: 176.2912139892578
+  pitch: 32.48115158081055
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 218.94096225335815
+  y: 85.0625
+  z: 504.13101641996883
+  yaw: 152.926025390625
+  pitch: 38.20962142944336

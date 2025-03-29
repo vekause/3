@@ -363,3 +363,67 @@
 [01:06:48] [Craft Scheduler Thread - 43 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
 [01:06:54] [Async Chat Thread - #1/INFO]: [Not Secure] <FoxyThePirate30> well well well
 [01:07:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Prinstak> Cállese sapo
+[01:07:07] [Async Chat Thread - #1/INFO]: [Not Secure] <FoxyThePirate30> no
+[01:07:16] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=217, y=48, z=159}
+[01:07:21] [Server thread/INFO]: focupepardo has made the advancement [Getting an Upgrade]
+[01:07:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Prinstak> Ya vino a chimbear la vida de buena
+[01:07:53] [Server thread/INFO]: BekauseELF issued server command: /tpa AlejandraOwO
+[01:08:13] [Server thread/INFO]: Matinico1272 has made the advancement [Stone Age]
+[01:08:18] [Server thread/INFO]: Martinez250809_ has made the advancement [Monster Hunter]
+[01:08:53] [Server thread/INFO]: Prinstak has made the advancement [Getting an Upgrade]
+[01:08:54] [Server thread/INFO]: AlejandraOwO issued server command: /tpignore
+[01:08:58] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Getting an Upgrade]
+[01:08:59] [Server thread/INFO]: AlejandraOwO issued server command: /tpdecline
+[01:09:04] [Server thread/INFO]: focupepardo has made the advancement [Monster Hunter]
+[01:09:07] [Server thread/INFO]: Martinez250809_ was shot by Pillager
+[01:09:10] [Server thread/INFO]: Martinez250809_ issued server command: /huskhomes:back
+[01:09:13] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
+[01:09:13] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
+[01:09:16] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO
+[01:09:31] [User Authenticator #4/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[01:09:31] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:57289] logged in with entity id 5323 at ([world]281.4271843159116, 67.0, 519.0005119192459)
+[01:09:31] [Craft Scheduler Thread - 53 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[01:09:41] [User Authenticator #4/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
+[01:09:41] [Server thread/INFO]: Nartic_MC[/127.151.2.191:38967] logged in with entity id 5565 at ([world]242.5, 65.0, 402.5)
+[01:09:46] [Server thread/INFO]: BekauseELF issued server command: /spawn
+[01:10:06] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_
+[01:10:31] [Server thread/INFO]: [AuthMe] Nartic_MC registered 127.151.2.191
+[01:10:31] [Craft Scheduler Thread - 59 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
+[01:10:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Nartic_MC> hello huys
+[01:10:39] [Async Chat Thread - #3/INFO]: [Not Secure] <FoxyThePirate30> no
+[01:10:43] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC
+[01:11:33] [Server thread/INFO]: Martinez250809_ has made the advancement [Sweet Dreams]
+[01:11:41] [Server thread/INFO]: Nartic_MC has made the advancement [Diamonds!]
+[01:11:42] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC BekauseELF
+[01:11:53] [Server thread/INFO]: AlejandraOwO has made the advancement [Monster Hunter]
+[01:12:09] [Server thread/INFO]: BekauseELF issued server command: /clean BekauseELF diamond
+[01:12:10] [Server thread/INFO]: FoxyThePirate30 was shot by Pillager
+[01:12:17] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
+[01:12:18] [Server thread/INFO]: BekauseELF issued server command: /clean Nartic_MC diamond
+[01:12:18] [Server thread/INFO]: Matinico1272 has made the advancement [Not Today, Thank You]
+[01:12:26] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[01:12:57] [Server thread/INFO]: AlejandraOwO has made the advancement [Acquire Hardware]
+[01:13:01] [Server thread/INFO]: Prinstak has made the advancement [Monster Hunter]
+[01:13:09] [User Authenticator #5/INFO]: UUID of player JUANJO_MC is 7e67f95e-2350-37f8-aaa1-39c73596de7b
+[01:13:09] [Server thread/INFO]: JUANJO_MC[/127.51.240.48:40251] logged in with entity id 8105 at ([world]241.5, 66.0, 415.5)
+[01:13:38] [Server thread/INFO]: [AuthMe] JUANJO_MC registered 127.51.240.48
+[01:13:38] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] JUANJO_MC logged in 127.51.240.48
+[01:13:49] [Server thread/INFO]: AlejandraOwO has made the advancement [What a Deal!]
+[01:14:16] [Server thread/INFO]: focupepardo issued server command: /teammsg
+[01:14:29] [Server thread/INFO]: AlejandraOwO has made the advancement [Isn't It Iron Pick]
+[01:14:31] [Server thread/INFO]: focupepardo issued server command: /teammsg s
+[01:14:32] [Server thread/INFO]: AlejandraOwO has made the advancement [Suit Up]
+[01:14:35] [Server thread/INFO]: focupepardo issued server command: /team
+[01:14:36] [Server thread/INFO]: FoxyThePirate30 has made the advancement [Ice Bucket Challenge]
+[01:14:39] [Server thread/INFO]: focupepardo has made the advancement [Acquire Hardware]
+[01:14:47] [Server thread/INFO]: JUANJO_MC has made the advancement [Getting an Upgrade]
+[01:14:57] [Server thread/INFO]: FoxyThePirate30 was blown up by Creeper
+[01:15:00] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
+[01:15:01] [Server thread/INFO]: Martinez250809_ has made the advancement [Acquire Hardware]
+[01:15:04] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Acquire Hardware]
+[01:15:35] [Server thread/INFO]: AlejandraOwO has made the advancement [Sweet Dreams]
+[01:15:47] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Isn't It Iron Pick]
+[01:16:16] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Not Today, Thank You]
+[01:16:17] [Server thread/INFO]: Nartic_MC has made the advancement [Acquire Hardware]
+[01:16:20] [Server thread/INFO]: Nartic_MC lost connection: Disconnected
+[01:16:38] [Server thread/INFO]: Prinstak has made the advancement [Acquire Hardware]
