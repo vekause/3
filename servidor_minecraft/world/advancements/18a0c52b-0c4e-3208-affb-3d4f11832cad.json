@@ -107,6 +107,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2025-03-29 03:21:16 +0000",
       "bread": "2025-03-29 02:01:16 +0000",
       "rotten_flesh": "2025-03-29 02:22:12 +0000",
       "glow_berries": "2025-03-29 02:17:45 +0000"
@@ -1204,6 +1205,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2025-03-29 03:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_white_tulip": "2025-03-29 03:12:06 +0000"
@@ -1267,6 +1274,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-03-29 03:17:46 +0000"
     },
     "done": true
   },

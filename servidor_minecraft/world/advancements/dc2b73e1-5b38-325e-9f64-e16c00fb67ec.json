@@ -1569,6 +1569,12 @@
     },
     "done": true
   },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2025-03-29 03:25:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-03-29 02:29:05 +0000"
@@ -1761,9 +1767,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-03-29 03:24:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-03-29 03:17:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-03-29 03:24:02 +0000"
     },
     "done": true
   },

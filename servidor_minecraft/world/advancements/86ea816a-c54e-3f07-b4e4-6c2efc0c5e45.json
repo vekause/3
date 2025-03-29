@@ -1307,7 +1307,7 @@
   },
   "vanilla_refresh:player/hurt": {
     "criteria": {
-      "requirement": "2025-03-29 02:31:27 +0000"
+      "requirement": "2025-03-29 03:22:00 +0000"
     },
     "done": true
   },
@@ -1518,6 +1518,18 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 03:10:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-29 03:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-29 03:17:00 +0000"
     },
     "done": true
   },
