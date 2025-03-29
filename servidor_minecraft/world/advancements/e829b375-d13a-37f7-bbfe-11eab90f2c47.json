@@ -274,7 +274,8 @@
     "criteria": {
       "cooked_mutton": "2025-03-29 01:20:10 +0000",
       "bread": "2025-03-29 01:03:23 +0000",
-      "glow_berries": "2025-03-29 02:24:28 +0000"
+      "glow_berries": "2025-03-29 02:24:28 +0000",
+      "cooked_chicken": "2025-03-29 02:52:23 +0000"
     },
     "done": false
   },
@@ -926,12 +927,6 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2025-03-29 02:35:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-03-29 01:37:44 +0000"
@@ -1292,6 +1287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-03-29 02:47:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-03-29 01:58:00 +0000"
@@ -1373,6 +1374,18 @@
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-29 02:04:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-03-29 02:45:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-03-29 02:47:07 +0000"
     },
     "done": true
   },

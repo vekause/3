@@ -21,6 +21,7 @@
     "criteria": {
       "minecraft:frozen_river": "2025-03-29 01:38:28 +0000",
       "minecraft:cherry_grove": "2025-03-29 02:01:15 +0000",
+      "minecraft:windswept_hills": "2025-03-29 02:49:04 +0000",
       "minecraft:beach": "2025-03-29 01:12:13 +0000",
       "minecraft:river": "2025-03-29 01:10:31 +0000",
       "minecraft:snowy_plains": "2025-03-29 01:41:25 +0000",
@@ -255,6 +256,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-03-29 02:46:26 +0000",
       "cooked_beef": "2025-03-29 02:07:00 +0000",
       "beef": "2025-03-29 01:23:18 +0000",
       "porkchop": "2025-03-29 01:23:32 +0000",
@@ -563,6 +565,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-03-29 02:54:03 +0000",
       "minecraft:spider": "2025-03-29 02:16:04 +0000",
       "minecraft:zombie": "2025-03-29 01:26:13 +0000"
     },
@@ -1312,9 +1315,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2025-03-29 02:36:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
     },
     "done": true
   },
@@ -1327,6 +1348,54 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-03-29 02:36:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-03-29 02:54:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:47:13 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/windswept_hills": {
+    "criteria": {
+      "requirement": "2025-03-29 02:49:04 +0000"
     },
     "done": true
   },

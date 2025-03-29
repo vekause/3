@@ -390,7 +390,7 @@
   },
   "vanilla_refresh:player/hurt": {
     "criteria": {
-      "requirement": "2025-03-29 01:08:44 +0000"
+      "requirement": "2025-03-29 02:51:56 +0000"
     },
     "done": true
   },
@@ -1080,6 +1080,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-03-29 02:52:03 +0000"
     },
     "done": true
   },
