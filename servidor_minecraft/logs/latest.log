@@ -1037,3 +1037,175 @@
 [02:05:40] [Async Chat Thread - #31/INFO]: [Not Secure] <JUANJO_MC> ban
 [02:05:49] [Async Chat Thread - #30/INFO]: [Not Secure] <focupepardo> clear
 [02:06:43] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=203, y=48, z=159}
+[02:07:37] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Ol' Betsy]
+[02:07:37] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Take Aim]
+[02:07:38] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Sneak 100]
+[02:07:46] [Server thread/INFO]: [PAN] Martinez250809_ has completed the challenge [It Spreads]
+[02:09:48] [Server thread/INFO]: JUANJO_MC issued server command: /minecraft:tell focupepardo oe
+[02:10:02] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Stone Age]
+[02:11:40] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=203, y=48, z=159}
+[02:13:04] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
+[02:13:19] [User Authenticator #14/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[02:13:19] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:40589] logged in with entity id 84586 at ([world]187.72525663176398, 69.0, 492.7996790367125)
+[02:13:20] [Craft Scheduler Thread - 342 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[02:13:23] [Server thread/INFO]: JUANJO_MC issued server command: /homelist
+[02:13:23] [Server thread/INFO]: focupepardo issued server command: /setspawn
+[02:13:35] [Server thread/INFO]: focupepardo issued server command: /homelist
+[02:13:40] [Server thread/INFO]: focupepardo issued server command: /tpa
+[02:13:40] [Server thread/INFO]: [Essentials] focupepardo was denied access to command.
+[02:13:54] [Async Chat Thread - #33/INFO]: [Not Secure] <JUANJO_MC> rolo
+[02:13:57] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Acquire Hardware]
+[02:13:58] [Async Chat Thread - #34/INFO]: [Not Secure] <BekauseELF> dime
+[02:13:58] [Async Chat Thread - #34/INFO]: [Not Secure] <JUANJO_MC> hat /spawn
+[02:14:04] [Async Chat Thread - #34/INFO]: [Not Secure] <JUANJO_MC> hay
+[02:14:11] [Server thread/INFO]: [PAN] HannaOwO1520 was slain by Spider
+[02:14:16] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
+[02:14:27] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Not Today, Thank You]
+[02:14:36] [Async Chat Thread - #33/INFO]: [Not Secure] <HannaOwO1520> Me emboscaron
+[02:15:16] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Isn't It Iron Pick]
+[02:15:29] [Async Chat Thread - #35/INFO]: [Not Secure] <BekauseELF> creo
+[02:15:35] [Server thread/INFO]: Nartic_MC issued server command: /helpop
+[02:15:35] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
+[02:15:42] [Server thread/INFO]: Villager EntityVillager['Villager'/191, uuid='b67f6ca8-8340-4200-aa30-1b6c165d414c', l='ServerLevel[world]', x=267.70, y=69.00, z=474.50, cpos=[16, 29], tl=130607, v=true] died, message: 'Villager was slain by Zombie'
+[02:15:52] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Light as a Rabbit]
+[02:16:09] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Monster Hunter]
+[02:16:54] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Not Today, Thank You]
+[02:18:05] [User Authenticator #15/INFO]: UUID of player cebodepesca is 3228ab84-15c7-3704-978e-6f9b8825e5e0
+[02:18:05] [Server thread/INFO]: cebodepesca[/127.39.117.181:45859] logged in with entity id 92905 at ([world]239.5, 66.0, 405.5)
+[02:18:06] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Ol' Betsy]
+[02:18:07] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Take Aim]
+[02:18:13] [Async Chat Thread - #37/INFO]: [Not Secure] <HannaOwO1520> yo te esoty robando comida
+[02:18:22] [Server thread/INFO]: [AuthMe] cebodepesca registered 127.39.117.181
+[02:18:22] [Craft Scheduler Thread - 358 - AuthMe/INFO]: [AuthMe] cebodepesca logged in 127.39.117.181
+[02:18:27] [Async Chat Thread - #36/INFO]: [Not Secure] <cebodepesca> baneenme
+[02:18:37] [Server thread/INFO]: BekauseELF issued server command: /ban cebodepesca
+[02:18:37] [Server thread/INFO]: cebodepesca lost connection: You have been banned:
+The Ban Hammer has spoken!
+[02:18:37] [Server thread/INFO]: [Essentials] Player BekauseELF banned cebodepesca for: You have been banned:
+The Ban Hammer has spoken!.
+[02:18:46] [User Authenticator #15/INFO]: UUID of player cebodepesca is 3228ab84-15c7-3704-978e-6f9b8825e5e0
+[02:18:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@45ec6987[id=3228ab84-15c7-3704-978e-6f9b8825e5e0,name=cebodepesca,properties={},legacy=false] (/127.39.117.181:43769): You are banned from this server. Reason: The Ban Hammer has spoken!
+[02:18:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@45ec6987[id=3228ab84-15c7-3704-978e-6f9b8825e5e0,name=cebodepesca,properties={},legacy=false] (/127.39.117.181:43769) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
+[02:20:00] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Suit Up]
+[02:20:15] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Suit Up]
+[02:21:07] [Server thread/WARN]: BekauseELF moved too quickly! 4.286263883759602,0.2468000194787976,10.126244534744615
+[02:21:07] [Server thread/WARN]: Prinstak moved too quickly! -6.449346905509628,-1.2491870787446828,-7.803682014015408
+[02:21:07] [Server thread/WARN]: Matinico1272 moved too quickly! 3.6262798505440514,-1.0244240882136921,9.44125517219004
+[02:21:17] [Async Chat Thread - #38/INFO]: [Not Secure] <Nartic_MC> el tridente esta permitido ya?
+[02:21:25] [Async Chat Thread - #39/INFO]: [Not Secure] <BekauseELF> no
+[02:21:31] [Async Chat Thread - #38/INFO]: [Not Secure] <Nartic_MC> hmmmm ok
+[02:21:51] [Async Chat Thread - #39/INFO]: [Not Secure] <Nartic_MC> puedo usarlo para logro
+[02:23:06] [Server thread/INFO]: BekauseELF issued server command: /sethome aldea 2
+[02:23:11] [Server thread/INFO]: BekauseELF issued server command: /sethome aldea2
+[02:23:32] [Server thread/WARN]: FoxyThePirate30 moved too quickly! -6.129899973721535,0.0,-12.436622626603253
+[02:24:03] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC
+[02:24:38] [User Authenticator #16/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
+[02:24:38] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:51589] logged in with entity id 101969 at ([world]698.9003385497766, 80.0, 1724.5559672028003)
+[02:24:38] [Craft Scheduler Thread - 385 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
+[02:25:12] [Async Chat Thread - #40/INFO]: [Not Secure] <HannaOwO1520> clausura de full hierro ?
+[02:25:33] [Async Chat Thread - #41/INFO]: [Not Secure] <HannaOwO1520> REGALAN COMIDA ?
+[02:25:37] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ Prinstak
+[02:25:44] [Server thread/INFO]: BekauseELF issued server command: /home aldea2
+[02:26:37] [Server thread/INFO]: [PAN] HannaOwO1520 was shot by Skeleton
+[02:26:40] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
+[02:26:57] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Ice Bucket Challenge]
+[02:27:07] [Async Chat Thread - #42/INFO]: [Not Secure] <HannaOwO1520> tp
+[02:27:09] [Async Chat Thread - #43/INFO]: [Not Secure] <HannaOwO1520> pa ver
+[02:27:25] [Async Chat Thread - #42/INFO]: [Not Secure] <HannaOwO1520> sip
+[02:27:29] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[02:27:41] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520 BekauseELF
+[02:28:29] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO Matinico1272
+[02:29:05] [Server thread/INFO]: [PAN] JUANJO_MC was blown up by Creeper
+[02:29:05] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Monster Hunter]
+[02:29:05] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Best Friends Forever]
+[02:29:14] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:back
+[02:29:41] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/141, uuid='70d9986d-5aee-4bf7-b6f4-8f3f7bf95e73', l='ServerLevel[world]', x=272.40, y=61.05, z=553.60, cpos=[17, 34], tl=147395, v=true] died, message: 'Leatherworker drowned'
+[02:29:57] [Server thread/INFO]: [PAN] FoxyThePirate30 fell from a high place
+[02:30:00] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
+[02:30:04] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> tp
+[02:30:08] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Safe Haven]
+[02:30:23] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Diamonds!]
+[02:30:26] [Async Chat Thread - #45/INFO]: [Not Secure] <BekauseELF> LOl
+[02:30:29] [Async Chat Thread - #44/INFO]: [Not Secure] <AlejandraOwO> ban
+[02:30:30] [Async Chat Thread - #45/INFO]: [Not Secure] <HannaOwO1520> ban
+[02:30:32] [Async Chat Thread - #44/INFO]: [Not Secure] <Prinstak> Ban
+[02:30:33] [Async Chat Thread - #46/INFO]: [Not Secure] <BekauseELF> ban
+[02:30:35] [Async Chat Thread - #44/INFO]: [Not Secure] <Prinstak> Corrupto
+[02:30:40] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> abuso de poder
+[02:30:46] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[02:30:49] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> y a mi
+[02:31:00] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> bekause
+[02:31:01] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Ice Bucket Challenge]
+[02:31:02] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> tp
+[02:31:10] [Server thread/INFO]: Nartic_MC lost connection: Timed out
+[02:32:40] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Suit Up]
+[02:32:43] [Server thread/INFO]: BekauseELF issued server command: /home casa
+[02:32:54] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Safe Haven]
+[02:33:01] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Diamonds!]
+[02:33:04] [Server thread/INFO]: BekauseELF issued server command: /tp Matinico1272 BekauseELF
+[02:33:05] [Async Chat Thread - #47/INFO]: [Not Secure] <HannaOwO1520> ban
+[02:33:11] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Ol' Betsy]
+[02:34:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Ol' Betsy]
+[02:34:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Take Aim]
+[02:34:38] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
+[02:34:38] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
+[02:34:39] [User Authenticator #17/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[02:34:39] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:56007] logged in with entity id 112424 at ([world]-14.174405002071365, 175.0, 544.6394167481587)
+[02:34:39] [Craft Scheduler Thread - 421 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[02:34:42] [Server thread/INFO]: [PAN] Prinstak has made the advancement [A Seedy Place]
+[02:34:44] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [A Seedy Place]
+[02:34:55] [Server thread/INFO]: FoxyThePirate30 lost connection: Disconnected
+[02:35:01] [User Authenticator #17/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[02:35:01] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:44697] logged in with entity id 112702 at ([world]-14.174405002071365, 175.0, 544.6394167481587)
+[02:35:01] [Craft Scheduler Thread - 420 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[02:35:09] [Server thread/INFO]: [PAN] Matinico1272 was blown up by Creeper
+[02:35:15] [Server thread/INFO]: Matinico1272 issued server command: /huskhomes:back
+[02:35:19] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ BekauseELF
+[02:35:27] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ Prinstak
+[02:35:31] [Server thread/INFO]: BekauseELF issued server command: /tp Matinico1272 BekauseELF
+[02:35:55] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Sweet Dreams]
+[02:37:07] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Sweet Dreams]
+[02:37:52] [Server thread/INFO]: BekauseELF issued server command: /time set day
+[02:38:23] [Async Chat Thread - #49/INFO]: [Not Secure] <HannaOwO1520> tengo 2 plumas
+[02:38:28] [Async Chat Thread - #50/INFO]: [Not Secure] <FoxyThePirate30> D A M E
+[02:38:35] [Async Chat Thread - #49/INFO]: [Not Secure] <HannaOwO1520> ven
+[02:38:43] [Async Chat Thread - #50/INFO]: [Not Secure] <HannaOwO1520> por ellas dile a bekause que te haga tp
+[02:38:52] [Async Chat Thread - #49/INFO]: [Not Secure] <FoxyThePirate30> mi alma esta encadenada a este lugar
+[02:38:52] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ BekauseELF
+[02:38:58] [Async Chat Thread - #49/INFO]: [Not Secure] <FoxyThePirate30> no me puedo ir
+[02:39:33] [Server thread/INFO]: Villager EntityVillager['Nitwit'/217, uuid='429398f2-152d-436a-8dea-9d62ff3e62bc', l='ServerLevel[world]', x=274.56, y=61.05, z=551.44, cpos=[17, 34], tl=159223, v=true] died, message: 'Nitwit drowned'
+[02:39:59] [Server thread/INFO]: [PAN] HannaOwO1520 fell from a high place
+[02:40:02] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
+[02:41:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Diamonds!]
+[02:41:26] [Async Chat Thread - #51/INFO]: [Not Secure] <BekauseELF> uy
+[02:41:33] [Async Chat Thread - #52/INFO]: [Not Secure] <BekauseELF> ban
+[02:41:35] [Async Chat Thread - #51/INFO]: [Not Secure] <Martinez250809_> BAN
+[02:41:39] [Async Chat Thread - #53/INFO]: [Not Secure] <focupepardo> ban
+[02:41:46] [Async Chat Thread - #51/INFO]: [Not Secure] <JUANJO_MC> ban
+[02:42:36] [Server thread/INFO]: HannaOwO1520 lost connection: Timed out
+[02:43:48] [User Authenticator #18/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
+[02:43:48] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:55677] logged in with entity id 119621 at ([world]1604.4570548330066, -48.0, 865.5161479961789)
+[02:43:48] [Craft Scheduler Thread - 456 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
+[02:44:13] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> voy a vivir ahi
+[02:44:23] [Async Chat Thread - #55/INFO]: [Not Secure] <HannaOwO1520> pera
+[02:44:31] [Server thread/INFO]: BekauseELF issued server command: /sethome casaH
+[02:44:50] [Server thread/WARN]: FoxyThePirate30 moved too quickly! -6.1754667136030665,4.878703159460798,6.198485813032107
+[02:44:50] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> para bañarme
+[02:44:59] [Async Chat Thread - #55/INFO]: [Not Secure] <HannaOwO1520> no
+[02:45:31] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[02:45:35] [Server thread/INFO]: focupepardo lost connection: Disconnected
+[02:45:37] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> no puedo usar los diamantes cierto
+[02:45:42] [Async Chat Thread - #55/INFO]: [Not Secure] <Prinstak> No
+[02:45:53] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [A Seedy Place]
+[02:45:55] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Take Aim]
+[02:46:00] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Take Aim]
+[02:46:57] [Server thread/INFO]: Villager EntityVillager['Villager'/197, uuid='7ea93776-ba58-47f4-beb4-ca89e64bdbd5', l='ServerLevel[world]', x=274.53, y=61.05, z=551.47, cpos=[17, 34], tl=168101, v=true] died, message: 'Villager drowned'
+[02:47:38] [Server thread/INFO]: [PAN] Prinstak withered away
+[02:47:44] [Server thread/INFO]: BekauseELF issued server command: /tp Prinstak BekauseELF
+[02:47:56] [Async Chat Thread - #57/INFO]: [Not Secure] <JUANJO_MC> invocaron al wither?
+[02:47:59] [Async Chat Thread - #56/INFO]: [Not Secure] <AlejandraOwO> si
+[02:48:00] [Async Chat Thread - #57/INFO]: [Not Secure] <BekauseELF> no
+[02:48:06] [Async Chat Thread - #57/INFO]: [Not Secure] <FoxyThePirate30> si
+[02:48:07] [Async Chat Thread - #56/INFO]: [Not Secure] <FoxyThePirate30> corre
+[02:48:14] [Async Chat Thread - #57/INFO]: [Not Secure] <BekauseELF> es un efecto
+[02:48:15] [Async Chat Thread - #56/INFO]: [Not Secure] <HannaOwO1520> tp

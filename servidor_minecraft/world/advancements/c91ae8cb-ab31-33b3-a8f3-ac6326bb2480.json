@@ -25,10 +25,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-03-29 02:16:49 +0000",
+      "minecraft:cherry_grove": "2025-03-29 02:44:02 +0000",
       "minecraft:windswept_hills": "2025-03-29 01:58:03 +0000",
       "minecraft:beach": "2025-03-27 19:50:17 +0000",
       "minecraft:river": "2025-03-29 01:04:24 +0000",
+      "minecraft:snowy_plains": "2025-03-29 02:16:45 +0000",
       "minecraft:snowy_taiga": "2025-03-29 01:09:17 +0000",
+      "minecraft:cold_ocean": "2025-03-29 02:12:31 +0000",
+      "minecraft:deep_frozen_ocean": "2025-03-29 02:24:03 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-03-29 02:11:54 +0000",
       "minecraft:plains": "2025-03-27 19:50:07 +0000"
     },
     "done": false
@@ -880,9 +886,39 @@
     },
     "done": true
   },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-03-29 02:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-03-29 02:26:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-29 01:44:37 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/cherry_grove": {
+    "criteria": {
+      "requirement": "2025-03-29 02:44:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-29 02:21:19 +0000"
     },
     "done": true
   },
@@ -898,15 +934,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-29 02:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2025-03-29 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-03-29 02:36:41 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-03-29 02:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/snowy_plains": {
+    "criteria": {
+      "requirement": "2025-03-29 02:16:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
     "criteria": {
       "has_pink_tulip": "2025-03-29 01:51:38 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_helmet": "2025-03-29 02:34:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-29 01:44:37 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/ocean": {
+    "criteria": {
+      "requirement": "2025-03-29 02:12:30 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:has/anvil": {
+    "criteria": {
+      "requirement": "2025-03-29 02:22:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-03-29 02:14:56 +0000"
     },
     "done": true
   },
@@ -922,6 +1036,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-03-29 02:35:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-29 01:44:37 +0000"
@@ -934,9 +1060,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2025-03-29 01:44:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
     },
     "done": true
   },
@@ -952,15 +1096,45 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-03-29 02:33:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2025-03-29 01:56:01 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-03-29 02:14:56 +0000"
+    },
+    "done": true
+  },
   "vanilla_refresh:biome/windswept_hills": {
     "criteria": {
       "requirement": "2025-03-29 01:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-03-29 02:30:23 +0000"
     },
     "done": true
   },

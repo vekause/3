@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1743213393765
+  lastteleport: 1743215563869
   lastheal: 0
   mute: 0
   jail: 0
@@ -31,11 +31,11 @@ logoutlocation:
 lastlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: -49.30000001192093
-  y: 172.0
-  z: 554.5434150964716
-  yaw: -111.76284790039062
-  pitch: 23.648548126220703
+  x: 1797.4942858993063
+  y: 89.0
+  z: 905.2383447167587
+  yaw: -98.19427490234375
+  pitch: 29.367534637451172
 homes:
   casa:
     world: e50c8df2-4c61-4acc-92d1-782785c29629
@@ -45,3 +45,19 @@ homes:
     z: 557.0161752719617
     yaw: -117.47137451171875
     pitch: 27.82343292236328
+  aldea2:
+    world: e50c8df2-4c61-4acc-92d1-782785c29629
+    world-name: world
+    x: 1778.3976649496808
+    y: 75.0625
+    z: 857.6350926513883
+    yaw: 150.36703491210938
+    pitch: 21.25091552734375
+  casah:
+    world: e50c8df2-4c61-4acc-92d1-782785c29629
+    world-name: world
+    x: 88.215097992609
+    y: 95.0
+    z: 1111.278676111504
+    yaw: 125.01043701171875
+    pitch: 16.726533889770508

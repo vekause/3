@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743213387349
+  logout: 1743216156158
+  login: 1743216228098
 money: '0'
 last-account-name: HannaOwO1520
 lastlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 263.30000001192093
-  y: 69.42159999847412
-  z: 467.4992325651302
-  yaw: -46.65003204345703
-  pitch: 31.350080490112305
+  x: -36.69999998807907
+  y: 97.0
+  z: 574.808236243936
+  yaw: -102.29805755615234
+  pitch: 0.14995355904102325
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 1604.4570548330066
+  y: -48.0
+  z: 865.5161479961789
+  yaw: -146.00686645507812
+  pitch: 45.75004959106445
