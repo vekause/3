@@ -23,6 +23,25 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-03-27 19:50:17 +0000",
+      "minecraft:plains": "2025-03-27 19:50:07 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2025-03-27 19:50:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-03-27 19:51:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-03-27 19:51:41 +0000"
@@ -32,18 +51,6 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-03-27 19:51:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-03-27 19:59:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2025-03-27 20:09:22 +0000"
     },
     "done": true
   },
@@ -59,21 +66,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
+  "minecraft:recipes/combat/leather_boots": {
     "criteria": {
-      "has_string": "2025-03-27 20:09:22 +0000"
+      "has_leather": "2025-03-27 19:51:41 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "killed_something": "2025-03-27 19:51:13 +0000"
+      "has_leather": "2025-03-27 19:51:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
-      "has_string": "2025-03-27 20:09:22 +0000"
+      "has_porkchop": "2025-03-27 19:59:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-03-27 19:59:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-03-27 19:59:03 +0000"
     },
     "done": true
   },
@@ -84,9 +103,27 @@
     },
     "done": false
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "has_porkchop": "2025-03-27 19:59:03 +0000"
+      "minecraft:creeper": "2025-03-27 20:06:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-03-27 20:09:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-03-27 20:09:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-03-27 20:09:22 +0000"
     },
     "done": true
   },
@@ -102,46 +139,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-03-27 19:59:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:creeper": "2025-03-27 20:06:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:beach": "2025-03-27 19:50:17 +0000",
-      "minecraft:plains": "2025-03-27 19:50:07 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-03-27 19:51:41 +0000"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/plains": {
-    "criteria": {
-      "requirement": "2025-03-27 19:50:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-03-27 20:09:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-03-27 19:51:41 +0000"
     },
     "done": true
   },

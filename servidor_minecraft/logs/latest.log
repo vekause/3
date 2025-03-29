@@ -1,515 +1,365 @@
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.2.0/jedis-5.2.0.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/62/commons-parent-62.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.pom
-[19:47:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.11.0/gson-parent-2.11.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.27.0/error_prone_parent-2.27.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.26.1/protobuf-parent-4.26.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/4.26.1/protobuf-bom-4.26.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.1/mariadb-java-client-3.5.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.21.1/bom-2.21.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.21.1/aws-sdk-java-pom-2.21.1.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-parent/3.3.0/waffle-parent-3.3.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.7/slf4j-parent-2.0.7.pom
-[19:47:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.10.0/error_prone_parent-2.10.0.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.32.0/checker-qual-3.32.0.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.47.1.0/sqlite-jdbc-3.47.1.0.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.pom
-[19:47:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.2.0/jedis-5.2.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.1/mariadb-java-client-3.5.1.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/2.0.7/jcl-over-slf4j-2.0.7.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.47.1.0/sqlite-jdbc-3.47.1.0.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
-[19:47:23] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[19:47:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:47:31] [ServerMain/INFO]: Loaded 7 recipes
-[19:47:31] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:47:31] [Server thread/INFO]: Loading properties
-[19:47:31] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[19:47:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:47:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:47:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[00:57:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:57:16] [ServerMain/INFO]: Loaded 7 recipes
+[00:57:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:57:18] [Server thread/INFO]: Loading properties
+[00:57:18] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[00:57:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:57:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:57:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:47:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:47:32] [Server thread/INFO]: Default game type: SURVIVAL
-[19:47:32] [Server thread/INFO]: Generating keypair
-[19:47:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:47:32] [Server thread/INFO]: Using epoll channel type
-[19:47:32] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:47:32] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:47:33] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
-[19:47:33] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
-[19:47:33] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
-[19:47:33] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[19:47:33] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/3/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[19:47:33] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[19:47:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@781d21fe]
-[19:47:34] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
-[19:47:34] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[19:47:34] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[19:47:34] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[19:47:34] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[19:47:34] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[19:47:34] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.1.63
-[19:47:34] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.6.1
-[19:47:34] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
-[19:47:34] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.3
-[19:47:34] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[19:47:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:47:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[19:47:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:47:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:47:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[19:47:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[19:47:36] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[19:47:37] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[19:47:37] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:47:37] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[19:47:37] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[19:47:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:47:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:47:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:47:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:47:37] [Server thread/INFO]: Preparing level "world"
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:47:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:47:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:47:39] [Server thread/INFO]: Time elapsed: 251 ms
-[19:47:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:47:39] [Server thread/INFO]: Time elapsed: 58 ms
-[19:47:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:47:39] [Server thread/INFO]: Time elapsed: 51 ms
-[19:47:39] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
-[19:47:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[19:47:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:47:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:47:39] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[19:47:39] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[19:47:39] [Server thread/INFO]: [Essentials] Converted 0/1
-[19:47:39] [Server thread/INFO]: [Essentials] Ban format update complete.
-[19:47:39] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[19:47:39] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[19:47:39] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[19:47:39] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[19:47:39] [Server thread/INFO]: [Essentials] Done converting mail list.
-[19:47:39] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:47:39] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[19:47:39] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[19:47:39] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[19:47:39] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[19:47:39] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[19:47:39] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[19:47:40] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[19:47:40] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[19:47:40] [Server thread/INFO]: [Essentials] 
-[19:47:40] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[19:47:40] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[19:47:40] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[19:47:40] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:47:40] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[19:47:40] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:47:40] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[19:47:40] [Server thread/INFO]: [Essentials] 
-[19:47:40] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[19:47:40] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[19:47:40] [Server thread/INFO]: [Essentials] 
-[19:47:40] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[19:47:40] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[19:47:40] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[19:47:40] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[19:47:40] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[19:47:40] [Server thread/INFO]: [Essentials] #===========================================================================#
-[19:47:40] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[19:47:40] [Server thread/INFO]: [Essentials] Using locale en
-[19:47:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:47:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:47:40] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:47:40] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:47:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:47:40] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:47:41] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[19:47:41] [Server thread/INFO]: [HuskHomes] Created the SQLite database file
-[19:47:41] [Server thread/INFO]: [HuskHomes] Creating SQLite database tables
-[19:47:41] [Server thread/INFO]: [HuskHomes] SQLite database tables created!
-[19:47:41] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[19:47:41] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[19:47:41] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.5 (running v4.8.3)
-[19:47:41] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.1.63
-[19:47:41] [Server thread/WARN]: [ChunkyBorder] No saved borders found.
-[19:47:41] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.6.1
-[19:47:41] [Server thread/WARN]: [CustomNPCs] A new version (1.7.3) is available!
-[19:47:41] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
-[19:47:41] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
-[19:47:41] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
-[19:47:41] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
-[19:47:41] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[19:47:42] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[19:47:42] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[19:47:42] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
-[19:47:42] [Server thread/INFO]: [AuthMe] 
+[00:57:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[00:57:19] [Server thread/INFO]: Default game type: SURVIVAL
+[00:57:19] [Server thread/INFO]: Generating keypair
+[00:57:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:57:19] [Server thread/INFO]: Using epoll channel type
+[00:57:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:57:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:57:19] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
+[00:57:19] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/3/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[00:57:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[00:57:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4d3e418]
+[00:57:20] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
+[00:57:20] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[00:57:20] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[00:57:20] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[00:57:20] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[00:57:20] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[00:57:20] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.1.63
+[00:57:20] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.6.1
+[00:57:20] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+[00:57:20] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.3
+[00:57:20] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[00:57:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:57:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[00:57:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:57:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:57:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[00:57:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[00:57:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[00:57:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[00:57:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:57:22] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[00:57:22] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[00:57:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:57:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:57:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:57:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:57:22] [Server thread/INFO]: Preparing level "world"
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:57:24] [Server thread/INFO]: Time elapsed: 323 ms
+[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:57:24] [Server thread/INFO]: Time elapsed: 95 ms
+[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:57:25] [Server thread/INFO]: Time elapsed: 115 ms
+[00:57:25] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
+[00:57:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[00:57:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:57:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:57:26] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[00:57:26] [Server thread/INFO]: [Essentials] Using locale en
+[00:57:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:57:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:57:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:57:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:57:26] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:57:26] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[00:57:27] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[00:57:27] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[00:57:27] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.1.63
+[00:57:27] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.5 (running v4.8.3)
+[00:57:27] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.6.1
+[00:57:27] [Server thread/WARN]: [CustomNPCs] A new version (1.7.3) is available!
+[00:57:27] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
+[00:57:27] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
+[00:57:27] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[00:57:27] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[00:57:28] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[00:57:28] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[00:57:29] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[00:57:29] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
+[00:57:29] [Server thread/INFO]: [AuthMe] 
     ___         __  __    __  ___   
    /   | __  __/ /_/ /_  /  |/  /__ 
   / /| |/ / / / __/ __ \/ /|_/ / _ \
  / ___ / /_/ / /_/ / / / /  / /  __/
 /_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
                                     
-[19:47:42] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
-[19:47:42] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
-[19:47:42] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
-[19:47:42] [Server thread/INFO]: [AuthMe] Checking for updates...
-[19:47:42] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.3
-[19:47:42] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.3) by ThizThizzyDizzy
-[19:47:42] [Server thread/INFO]: [TreeFeller] Server version: 1.20.1-R0.1-SNAPSHOT
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, GRASS_BLOCK, DIRT]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Overridables: [FERN, TALL_GRASS, SEAGRASS, CAVE_AIR, GRASS, WATER, LARGE_FERN, AIR, TALL_SEAGRASS]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {WARPED_HYPHAE=WARPED_STEM, DARK_OAK_WOOD=DARK_OAK_LOG, BIRCH_WOOD=BIRCH_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, OAK_WOOD=OAK_LOG, SPRUCE_WOOD=SPRUCE_LOG, ACACIA_WOOD=ACACIA_LOG}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Effects: []
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[19:47:42] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
-[19:47:42] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[19:47:42] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[19:47:42] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[19:47:42] [Server thread/INFO]: Running delayed init tasks
-[19:47:42] [Server thread/INFO]: Done (11.332s)! For help, type "help"
-[19:47:42] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:47:42] [Server thread/INFO]: Timings Reset
-[19:47:43] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] You are running the latest version.
-[19:47:43] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
-[19:47:43] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[19:47:47] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[19:47:57] [User Authenticator #0/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
-[19:47:57] [Server thread/INFO]: BekauseELF[/127.138.209.14:34961] logged in with entity id 372 at ([world]287.250640605607, 67.0, 508.0080936866319)
-[19:47:57] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
-[19:49:47] [Server thread/INFO]: BekauseELF issued server command: //expand vert
-[19:50:01] [Server thread/INFO]: BekauseELF issued server command: /region define comercio
-[19:50:10] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[19:50:12] [Server thread/INFO]: BekauseELF issued server command: /time set day
-[19:51:03] [Server thread/INFO]: BekauseELF issued server command: /place structure eugene:camp ~ ~ ~
-[19:51:03] [Server thread/INFO]: [BekauseELF: Generated structure "eugene:camp" at 237, 65, 427]
-[19:52:14] [Server thread/INFO]: BekauseELF issued server command: //expand vert
-[19:52:30] [Server thread/INFO]: BekauseELF issued server command: /region define Spawn
-[19:52:39] [Server thread/INFO]: Made BekauseELF no longer a server operator
-[19:52:40] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[19:52:54] [Server thread/INFO]: Made BekauseELF a server operator
-[19:53:39] [Server thread/INFO]: BekauseELF issued server command: /npc create
-[19:53:39] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:01:21] [Server thread/INFO]: BekauseELF issued server command: /npc create
-[20:06:04] [Server thread/INFO]: BekauseELF issued server command: /time set day
-[20:06:19] [Server thread/INFO]: BekauseELF has made the advancement [Monster Hunter]
-[20:07:14] [Server thread/INFO]: BekauseELF issued server command: /time set day
-[20:08:50] [Server thread/INFO]: BekauseELF issued server command: /setworldspawn ~ ~ ~
-[20:08:50] [Server thread/INFO]: [BekauseELF: Set the world spawn point to 240, 65, 411 [0.0]]
-[20:09:37] [Server thread/INFO]: BekauseELF issued server command: /team add Baguette
-[20:09:37] [Server thread/INFO]: [BekauseELF: Created team [Baguette]]
-[20:09:49] [Server thread/INFO]: BekauseELF issued server command: /team join Baguette BekauseELF
-[20:09:49] [Server thread/INFO]: [BekauseELF: Added BekauseELF to team [Baguette]]
-[20:10:56] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix {"text":"[BAGUETTE] ","color":"red"}
-[20:11:06] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix
-[20:11:23] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix {"text":"[BAGUETTE] ","color":"red"}
-[20:11:32] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette prefix {"text":"[BAGUETTE] ","color":"red"}
-[20:11:45] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix false
-[20:12:45] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix
-[20:13:40] [Server thread/INFO]: BekauseELF issued server command: /team add PAN
-[20:13:40] [Server thread/INFO]: [[BAGUETTE] BekauseELFfalse: Created team [PAN]]
-[20:14:02] [Server thread/INFO]: BekauseELF issued server command: /team modify PAN prefix {"text":"[PAN}] ","color":"green"}
-[20:14:09] [Server thread/INFO]: BekauseELF issued server command: /team modify PAN prefix {"text":"[PAN] ","color":"green"}
-[20:14:39] [Server thread/INFO]: BekauseELF issued server command: /team modify Baguette suffix {"text":"[CRACK] ","color":"red"}
-[20:14:52] [Server thread/INFO]: BekauseELF lost connection: Disconnected
-[20:15:03] [Server thread/INFO]: Stopping server
-[20:15:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[20:15:03] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.24.3
-[20:15:03] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.24.3) by ThizThizzyDizzy
-[20:15:03] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-FORK-b53
-[20:15:03] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
-[20:15:03] [Server thread/INFO]: [CustomNPCs] Disabling CustomNPCs v1.6.1
-[20:15:03] [ForkJoinPool.commonPool-worker-2/INFO]: [CustomNPCs] ScheduledExecutorService successfully shut down!
-[20:15:03] [Server thread/INFO]: [ChunkyBorder] Disabling ChunkyBorder v1.1.63
-[20:15:03] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[20:15:03] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[20:15:03] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[20:15:03] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[20:15:03] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:15:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[20:15:03] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.146
-[20:15:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
-[20:15:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:15:03] [Server thread/INFO]: Saving players
-[20:15:04] [Server thread/INFO]: Saving worlds
-[20:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:15:04] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:228) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saved 81 block chunks, 255 entity chunks, 3 poi chunks in world 'world' in 0.14s
-[20:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:15:04] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:15:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:15:04] [Server thread/INFO]: Flushing Chunk IO
-[20:15:04] [Server thread/INFO]: Closing Thread Pool
-[20:15:04] [Server thread/INFO]: Closing Server
+[00:57:29] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[00:57:29] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[00:57:29] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[00:57:29] [Server thread/INFO]: [AuthMe] Checking for updates...
+[00:57:29] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.3
+[00:57:29] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.3) by ThizThizzyDizzy
+[00:57:29] [Server thread/INFO]: [TreeFeller] Server version: 1.20.1-R0.1-SNAPSHOT
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Overridables: [LARGE_FERN, FERN, CAVE_AIR, SEAGRASS, AIR, TALL_GRASS, TALL_SEAGRASS, GRASS, WATER]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {SPRUCE_WOOD=SPRUCE_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM, ACACIA_WOOD=ACACIA_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, BIRCH_WOOD=BIRCH_LOG}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Effects: []
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
+[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[00:57:30] [Server thread/INFO]: Running delayed init tasks
+[00:57:30] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:57:30] [Server thread/INFO]: Done (12.048s)! For help, type "help"
+[00:57:30] [Server thread/INFO]: Timings Reset
+[00:57:30] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] You are running the latest version.
+[00:57:30] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
+[00:57:30] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[00:57:31] [User Authenticator #0/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
+[00:57:31] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:39027] logged in with entity id 124 at ([world]238.5, 66.0, 401.5)
+[00:57:32] [Craft Scheduler Thread - 5 - CustomNPCs/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:57:35] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[00:57:39] [User Authenticator #0/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
+[00:57:39] [Server thread/INFO]: BekauseELF[/127.138.209.14:60109] logged in with entity id 334 at ([world]238.65110515283266, 65.9375, 409.3660726766584)
+[00:57:39] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
+[00:57:49] [User Authenticator #0/INFO]: UUID of player focupepardo is 27ca9e32-5113-3128-be30-9750a80c043f
+[00:57:49] [Server thread/INFO]: focupepardo[/127.194.219.223:51767] logged in with entity id 341 at ([world]244.5, 66.0, 414.5)
+[00:57:51] [User Authenticator #0/INFO]: UUID of player Matinico1272 is e829b375-d13a-37f7-bbfe-11eab90f2c47
+[00:57:51] [Server thread/INFO]: Matinico1272[/127.186.18.125:50947] logged in with entity id 342 at ([world]250.5, 63.0, 407.5)
+[00:57:57] [Server thread/INFO]: [AuthMe] AlejandraOwO registered 127.207.145.7
+[00:57:57] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
+[00:58:09] [Server thread/INFO]: [AuthMe] focupepardo registered 127.194.219.223
+[00:58:09] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] focupepardo logged in 127.194.219.223
+[00:58:37] [Server thread/INFO]: BekauseELF issued server command: /tpaall BekauseELF
+[00:58:47] [Server thread/INFO]: focupepardo issued server command: /tpaccept
+[00:58:47] [Server thread/INFO]: [Essentials] focupepardo was denied access to command.
+[00:58:48] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[00:58:54] [Server thread/INFO]: [AuthMe] Matinico1272 registered 127.186.18.125
+[00:58:54] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Matinico1272 logged in 127.186.18.125
+[00:59:51] [Server thread/INFO]: BekauseELF issued server command: /tp @a BekauseELF
+[01:00:09] [Server thread/INFO]: Matinico1272 has made the advancement [Monster Hunter]
+[01:00:27] [Server thread/INFO]: BekauseELF issued server command: /time set day
+[01:01:29] [User Authenticator #1/INFO]: UUID of player Prinstak is cd9beb2e-27a9-360d-9d09-27a9699e6b3d
+[01:01:29] [Server thread/INFO]: Prinstak[/127.93.88.95:51633] logged in with entity id 894 at ([world]239.5, 66.0, 417.5)
+[01:01:33] [Server thread/INFO]: BekauseELF issued server command: /gamemode survival
+[01:01:46] [Server thread/INFO]: [AuthMe] Prinstak registered 127.93.88.95
+[01:01:46] [Craft Scheduler Thread - 16 - AuthMe/INFO]: [AuthMe] Prinstak logged in 127.93.88.95
+[01:04:02] [Server thread/INFO]: BekauseELF issued server command: /give @a bread 32
+[01:04:16] [Server thread/INFO]: BekauseELF issued server command: /give BekauseELF bread
+[01:04:43] [User Authenticator #2/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
+[01:04:44] [Server thread/INFO]: Martinez250809_[/127.98.196.114:55485] logged in with entity id 1558 at ([world]241.5, 66.0, 419.5)
+[01:04:58] [Server thread/INFO]: [AuthMe] Martinez250809_ registered 127.98.196.114
+[01:04:58] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
+[01:05:33] [Server thread/INFO]: Matinico1272 has made the advancement [Acquire Hardware]
+[01:05:36] [Server thread/INFO]: AlejandraOwO has made the advancement [Stone Age]
+[01:05:41] [Server thread/INFO]: Martinez250809_ was slain by Iron Golem
+[01:06:17] [Server thread/INFO]: AlejandraOwO has made the advancement [Getting an Upgrade]
+[01:06:22] [Server thread/INFO]: Martinez250809_ has made the advancement [Ice Bucket Challenge]
+[01:06:28] [User Authenticator #3/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[01:06:28] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:46391] logged in with entity id 2159 at ([world]235.5, 66.0, 412.5)
+[01:06:39] [Server thread/INFO]: focupepardo has made the advancement [Stone Age]
+[01:06:42] [Server thread/INFO]: Matinico1272 has made the advancement [Isn't It Iron Pick]
+[01:06:43] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Stone Age]
+[01:06:43] [Server thread/INFO]: Prinstak has made the advancement [Stone Age]
+[01:06:48] [Server thread/INFO]: [AuthMe] FoxyThePirate30 registered 127.48.24.227
+[01:06:48] [Craft Scheduler Thread - 43 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[01:06:54] [Async Chat Thread - #1/INFO]: [Not Secure] <FoxyThePirate30> well well well
+[01:07:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Prinstak> Cállese sapo

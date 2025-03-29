@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.207.145.7
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1743209851340
+money: '0'
+last-account-name: AlejandraOwO
+lastlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 331.18130214185004
+  y: 69.67647087614428
+  z: 447.0557103864813
+  yaw: 1.1956079006195068
+  pitch: 22.049453735351562
