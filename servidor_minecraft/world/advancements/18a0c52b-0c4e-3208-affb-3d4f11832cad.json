@@ -1180,9 +1180,9 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/cherry_grove": {
+  "vanilla_refresh:biome/swamp": {
     "criteria": {
-      "requirement": "2025-03-29 02:51:25 +0000"
+      "requirement": "2025-03-29 02:49:48 +0000"
     },
     "done": true
   },
@@ -1192,15 +1192,87 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/swamp": {
-    "criteria": {
-      "requirement": "2025-03-29 02:49:48 +0000"
-    },
-    "done": true
-  },
   "vanilla_refresh:biome/terralith/shield": {
     "criteria": {
       "requirement": "2025-03-29 02:51:18 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/cherry_grove": {
+    "criteria": {
+      "requirement": "2025-03-29 02:51:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-03-29 03:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-03-29 03:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-03-29 03:09:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-03-29 03:06:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-03-29 03:06:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-03-29 03:08:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-29 03:06:06 +0000"
     },
     "done": true
   },

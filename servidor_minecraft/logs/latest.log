@@ -1235,3 +1235,48 @@ The Ban Hammer has spoken!.
 [02:58:14] [Async Chat Thread - #64/INFO]: [Not Secure] <AlejandraOwO> melos
 [02:58:14] [Async Chat Thread - #65/INFO]: [Not Secure] <BekauseELF> en los termales
 [02:58:38] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
+[02:59:44] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
+[03:00:06] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
+[03:00:43] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Ice Bucket Challenge]
+[03:01:02] [Server thread/INFO]: Nartic_MC issued server command: /setspawn
+[03:01:05] [Server thread/INFO]: [PAN] Matinico1272 hit the ground too hard
+[03:02:05] [Server thread/INFO]: BekauseELF issued server command: /essentials:homes AlejandraOwO:
+[03:03:44] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO
+[03:03:53] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Safe Haven]
+[03:04:20] [Server thread/INFO]: BekauseELF issued server command: /essentials:sethome
+[03:05:04] [User Authenticator #20/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
+[03:05:04] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:57081] logged in with entity id 140381 at ([world]39.75517738980274, 98.0, 1097.9506358049778)
+[03:05:04] [Craft Scheduler Thread - 541 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
+[03:05:19] [Server thread/INFO]: BekauseELF issued server command: /tp Prinstak
+[03:05:29] [Server thread/INFO]: Villager EntityVillager['Villager'/259, uuid='3ffe638e-0bcd-40b8-8874-19e0b856cb09', l='ServerLevel[world]', x=274.53, y=61.05, z=551.47, cpos=[17, 34], tl=189507, v=true] died, message: 'Villager drowned'
+[03:06:34] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
+[03:06:34] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
+[03:06:35] [User Authenticator #21/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[03:06:35] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:41505] logged in with entity id 142039 at ([world]218.0003546692392, 68.44594350723132, 967.0852242222495)
+[03:06:36] [Craft Scheduler Thread - 547 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[03:07:12] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Call For Adventure]
+[03:07:34] [Server thread/INFO]: Nartic_MC issued server command: /seed
+[03:08:32] [Async Chat Thread - #66/INFO]: [Not Secure] <HannaOwO1520> que misiones ?
+[03:08:34] [Async Chat Thread - #67/INFO]: [Not Secure] <AlejandraOwO> 698 77 1726
+[03:08:35] [User Authenticator #22/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
+[03:08:35] [Server thread/INFO]: Martinez250809_[/127.98.196.114:55071] logged in with entity id 144126 at ([world]293.8338538398511, 67.0, 634.4084084644609)
+[03:08:35] [Craft Scheduler Thread - 553 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
+[03:09:04] [Async Chat Thread - #66/INFO]: [Not Secure] <HannaOwO1520> robatela
+[03:10:08] [Async Chat Thread - #68/INFO]: [Not Secure] <HannaOwO1520> leche valeriana
+[03:10:45] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO 698 77 1726
+[03:11:08] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO FoxyThePirate30
+[03:12:35] [Server thread/INFO]: Nartic_MC issued server command: /w al
+[03:12:35] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
+[03:13:41] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [The Parrots and the Bats]
+[03:15:20] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
+[03:15:30] [Server thread/INFO]: Villager EntityVillager['Villager'/232, uuid='2237c70f-ff62-4fee-bb5e-df7b291e757c', l='ServerLevel[world]', x=294.29, y=69.00, z=474.47, cpos=[18, 29], tl=202360, v=true] died, message: 'Villager was slain by Zombie'
+[03:16:20] [Async Chat Thread - #70/INFO]: [Not Secure] <HannaOwO1520> voy hacer mi casita UwU
+[03:16:39] [Server thread/INFO]: JUANJO_MC issued server command: /minecraft:tell Nartic_MC que haces bro
+[03:17:03] [User Authenticator #23/INFO]: UUID of player youngsuktrap is ac0ad1ca-0fe5-3012-b462-1fb33e027f85
+[03:17:03] [Server thread/INFO]: youngsuktrap[/127.225.213.229:52129] logged in with entity id 154925 at ([world]230.5, 67.0, 414.5)
+[03:17:16] [Server thread/INFO]: BekauseELF issued server command: /tp youngsuktrap
+[03:17:56] [Server thread/INFO]: [AuthMe] youngsuktrap registered 127.225.213.229
+[03:17:56] [Craft Scheduler Thread - 589 - AuthMe/INFO]: [AuthMe] youngsuktrap logged in 127.225.213.229
+[03:18:15] [Async Chat Thread - #72/INFO]: [Not Secure] <FoxyThePirate30> Gomita
+[03:18:20] [Async Chat Thread - #74/INFO]: [Not Secure] <FoxyThePirate30> Tienes mechero??????
+[03:19:08] [Server thread/INFO]: Nartic_MC lost connection: Disconnected

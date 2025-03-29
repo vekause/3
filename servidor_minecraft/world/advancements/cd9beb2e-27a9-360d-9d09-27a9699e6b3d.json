@@ -447,6 +447,7 @@
       "minecraft:skeleton": "2025-03-29 01:13:01 +0000",
       "minecraft:spider": "2025-03-29 01:18:15 +0000",
       "minecraft:creeper": "2025-03-29 01:37:06 +0000",
+      "minecraft:enderman": "2025-03-29 03:11:42 +0000",
       "minecraft:zombie": "2025-03-29 01:18:34 +0000",
       "minecraft:drowned": "2025-03-29 01:19:29 +0000",
       "minecraft:zombie_villager": "2025-03-29 01:18:36 +0000"
@@ -879,6 +880,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
@@ -963,9 +970,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
     },
     "done": true
   },
@@ -1023,6 +1042,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-03-29 01:40:24 +0000"
@@ -1056,6 +1081,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
     },
     "done": true
   },
@@ -1101,6 +1132,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
@@ -1122,6 +1159,12 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-03-29 01:55:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-03-29 02:59:08 +0000"
     },
     "done": true
   },
@@ -1155,9 +1198,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 02:33:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
     },
     "done": true
   },
@@ -1188,6 +1243,18 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-03-29 01:40:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-29 02:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-03-29 02:59:08 +0000"
     },
     "done": true
   },

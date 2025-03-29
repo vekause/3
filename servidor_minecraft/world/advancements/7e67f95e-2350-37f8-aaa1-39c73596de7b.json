@@ -20,9 +20,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2025-03-29 02:08:12 +0000",
+      "minecraft:beach": "2025-03-29 03:09:49 +0000",
       "minecraft:river": "2025-03-29 01:16:09 +0000",
       "minecraft:snowy_plains": "2025-03-29 02:07:25 +0000",
       "minecraft:snowy_taiga": "2025-03-29 02:08:16 +0000",
+      "minecraft:forest": "2025-03-29 03:02:09 +0000",
+      "minecraft:snowy_beach": "2025-03-29 03:02:00 +0000",
       "minecraft:plains": "2025-03-29 01:13:10 +0000"
     },
     "done": false
@@ -53,7 +56,7 @@
   },
   "vanilla_refresh:player/hurt": {
     "criteria": {
-      "requirement": "2025-03-29 02:29:31 +0000"
+      "requirement": "2025-03-29 03:00:12 +0000"
     },
     "done": true
   },
@@ -910,6 +913,12 @@
     },
     "done": true
   },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-03-29 03:03:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-29 02:18:43 +0000"
@@ -1000,6 +1009,12 @@
     },
     "done": true
   },
+  "vanilla_refresh:biome/terralith/yellowstone": {
+    "criteria": {
+      "requirement": "2025-03-29 03:11:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-29 02:18:43 +0000"
@@ -1030,6 +1045,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-03-29 03:03:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2025-03-29 02:01:57 +0000"
@@ -1048,6 +1069,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-03-29 03:00:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2025-03-29 01:54:14 +0000"
@@ -1057,6 +1084,12 @@
   "vanilla_refresh:biome/snowy_plains": {
     "criteria": {
       "requirement": "2025-03-29 02:07:25 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/tavern_quest": {
+    "criteria": {
+      "open_tavern_chest": "2025-03-29 03:07:12 +0000"
     },
     "done": true
   },
@@ -1108,6 +1141,18 @@
     },
     "done": true
   },
+  "vanilla_refresh:biome/terralith/shrublands": {
+    "criteria": {
+      "requirement": "2025-03-29 03:13:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-29 03:00:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-29 02:35:07 +0000"
@@ -1150,6 +1195,12 @@
     },
     "done": true
   },
+  "vanilla_refresh:biome/terralith/shield": {
+    "criteria": {
+      "requirement": "2025-03-29 03:14:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-29 02:18:43 +0000"
@@ -1164,6 +1215,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-03-29 03:00:10 +0000",
       "minecraft:zombie": "2025-03-29 02:29:05 +0000"
     },
     "done": false
@@ -1246,9 +1298,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-29 03:00:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-03-29 02:18:43 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/forest": {
+    "criteria": {
+      "requirement": "2025-03-29 03:02:08 +0000"
     },
     "done": true
   },
