@@ -735,6 +735,7 @@
       "minecraft:skeleton": "2025-03-29 01:15:54 +0000",
       "minecraft:spider": "2025-03-29 01:15:57 +0000",
       "minecraft:creeper": "2025-03-29 02:56:18 +0000",
+      "minecraft:phantom": "2025-03-29 03:30:59 +0000",
       "minecraft:witch": "2025-03-29 01:34:45 +0000",
       "minecraft:enderman": "2025-03-29 01:37:58 +0000",
       "minecraft:zombie": "2025-03-29 01:11:53 +0000",
@@ -1444,6 +1445,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-03-29 03:38:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 03:11:54 +0000"
@@ -1525,6 +1532,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-03-29 03:26:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-03-29 03:38:18 +0000"
     },
     "done": true
   },
@@ -1666,6 +1679,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-03-29 03:38:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-03-29 03:11:54 +0000"
@@ -1753,6 +1772,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-03-29 02:45:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-03-29 03:36:47 +0000"
     },
     "done": true
   },

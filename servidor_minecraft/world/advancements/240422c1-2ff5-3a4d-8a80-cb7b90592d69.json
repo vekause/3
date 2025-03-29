@@ -24,6 +24,7 @@
       "minecraft:beach": "2025-03-29 01:09:42 +0000",
       "minecraft:river": "2025-03-29 01:22:55 +0000",
       "minecraft:snowy_plains": "2025-03-29 02:11:49 +0000",
+      "minecraft:stony_shore": "2025-03-29 03:30:22 +0000",
       "minecraft:dripstone_caves": "2025-03-29 02:04:07 +0000",
       "minecraft:snowy_taiga": "2025-03-29 02:13:52 +0000",
       "minecraft:grove": "2025-03-29 02:14:17 +0000",
@@ -864,6 +865,7 @@
       "minecraft:pillager": "2025-03-29 01:46:35 +0000",
       "minecraft:spider": "2025-03-29 01:54:07 +0000",
       "minecraft:enderman": "2025-03-29 02:06:17 +0000",
+      "minecraft:stray": "2025-03-29 03:30:39 +0000",
       "minecraft:zombie": "2025-03-29 03:10:00 +0000",
       "minecraft:zombie_villager": "2025-03-29 03:03:30 +0000"
     },
@@ -1229,9 +1231,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_button": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_planks": "2025-03-29 03:05:53 +0000"
+      "has_furnace": "2025-03-29 02:57:57 +0000"
     },
     "done": true
   },
@@ -1241,7 +1243,61 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-03-29 03:02:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2025-03-29 03:02:45 +0000"
     },
@@ -1259,27 +1315,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:05:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_fence": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-03-29 03:05:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_stairs": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
+      "has_bone_meal": "2025-03-29 03:05:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:05:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-29 03:05:53 +0000"
     },
     "done": true
   },
@@ -1289,27 +1345,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2025-03-29 03:05:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-03-29 02:57:57 +0000"
     },
     "done": true
   },
@@ -1325,36 +1363,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mangrove_sign": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_wood": {
-    "criteria": {
-      "has_log": "2025-03-29 03:02:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_button": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_door": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2025-03-29 03:10:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-03-29 03:05:53 +0000"
@@ -1367,21 +1375,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
-    "criteria": {
-      "has_planks": "2025-03-29 03:02:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-03-29 03:05:53 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
-      "has_bone_meal": "2025-03-29 03:05:41 +0000"
+      "has_log": "2025-03-29 03:10:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-03-29 03:31:38 +0000"
     },
     "done": true
   },
