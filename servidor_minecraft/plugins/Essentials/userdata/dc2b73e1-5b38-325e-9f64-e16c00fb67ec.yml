@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743210284027
+  logout: 1743212342855
+  login: 1743212346776
 money: '0'
 last-account-name: Martinez250809_
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: -1492.9482680543583
+  y: 61.875
+  z: 331.1813623761003
+  yaw: 44.622169494628906
+  pitch: 0.8275024890899658

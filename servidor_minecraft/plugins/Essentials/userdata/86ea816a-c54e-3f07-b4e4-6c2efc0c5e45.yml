@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1743210553852
-  login: 1743210571928
+  logout: 1743213114106
+  login: 1743213116276
 money: '0'
 last-account-name: FoxyThePirate30
 logoutlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 281.4271843159116
-  y: 67.0
-  z: 519.0005119192459
-  yaw: -21.97540855407715
-  pitch: 10.48847484588623
+  x: 217.39654577828603
+  y: 68.79673560066871
+  z: 528.3010349301468
+  yaw: -10.4332275390625
+  pitch: 40.80398941040039
+lastlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 649.0193353933372
+  y: 71.5
+  z: 1656.446733753885
+  yaw: 66.69955444335938
+  pitch: 16.58060073852539

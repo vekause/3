@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743209869279
+  logout: 1743213244959
+  login: 1743213249976
 money: '0'
 last-account-name: focupepardo
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 367.7464725568017
+  y: 65.0
+  z: 399.58248893633396
+  yaw: -153.8724365234375
+  pitch: 33.635276794433594

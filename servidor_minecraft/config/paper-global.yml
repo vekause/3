@@ -99,8 +99,8 @@ proxies:
     online-mode: false
     secret: ''
 scoreboards:
-  save-empty-scoreboard-teams: false
-  track-plugin-scoreboards: false
+  save-empty-scoreboard-teams: true
+  track-plugin-scoreboards: true
 spam-limiter:
   incoming-packet-threshold: 300
   recipe-spam-increment: 1

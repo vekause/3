@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743209871076
+  logout: 1743212361508
+  login: 1743212368676
 money: '0'
 last-account-name: Matinico1272
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 694.6556718095314
+  y: 104.0
+  z: 1045.4360598106855
+  yaw: 34.16702651977539
+  pitch: 4.793673515319824

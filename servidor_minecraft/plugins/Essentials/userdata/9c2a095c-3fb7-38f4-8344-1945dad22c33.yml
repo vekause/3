@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743209851340
+  logout: 1743213467206
+  login: 1743213163726
 money: '0'
 last-account-name: AlejandraOwO
 lastlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 695.7818184523815
-  y: 2.0
-  z: 863.3209796798037
-  yaw: -92.509033203125
-  pitch: 69.24674224853516
+  x: 490.9570535964067
+  y: 64.25220334025373
+  z: 1138.6789491623524
+  yaw: 109.57159423828125
+  pitch: -0.13397306203842163
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 698.9003385497766
+  y: 80.0
+  z: 1724.5559672028003
+  yaw: 176.91748046875
+  pitch: -19.37918472290039

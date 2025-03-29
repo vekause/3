@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743210089777
+  logout: 1743212365996
+  login: 1743212373675
 money: '0'
 last-account-name: Prinstak
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 286.92436471390613
+  y: 63.0
+  z: 441.76342490028674
+  yaw: -23.284271240234375
+  pitch: 17.549766540527344
