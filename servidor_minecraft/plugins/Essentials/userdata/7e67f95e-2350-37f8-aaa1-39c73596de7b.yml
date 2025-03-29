@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743210789425
+  logout: 1743220743050
+  login: 1743219699735
 money: '0'
 last-account-name: JUANJO_MC
 lastlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 410.6556987725015
-  y: 67.0
-  z: 656.1307217643024
-  yaw: -28.649965286254883
-  pitch: 10.650023460388184
+  x: 225.74894317162187
+  y: 70.0
+  z: 496.5526061746818
+  yaw: 77.3868179321289
+  pitch: -5.379058361053467
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 622.827294674765
+  y: 66.0
+  z: 781.5837767254927
+  yaw: -117.16098022460938
+  pitch: 4.500187397003174

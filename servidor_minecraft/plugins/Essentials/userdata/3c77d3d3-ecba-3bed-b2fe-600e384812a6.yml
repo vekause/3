@@ -16,7 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1743218981584
+  logout: 1743224213696
+  login: 1743223482625
 money: '0'
 last-account-name: Pablo14666
+logoutlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 176.40560573986093
+  y: 72.0
+  z: 1117.2768784534826
+  yaw: 10.8453369140625
+  pitch: 42.749332427978516
+lastlocation:
+  world: e50c8df2-4c61-4acc-92d1-782785c29629
+  world-name: world
+  x: 268.95356286596984
+  y: 66.24918707874468
+  z: 409.5163695046091
+  yaw: -51.751678466796875
+  pitch: 30.29974365234375

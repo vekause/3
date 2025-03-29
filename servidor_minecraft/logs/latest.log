@@ -1,1343 +1,509 @@
-[00:57:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:57:16] [ServerMain/INFO]: Loaded 7 recipes
-[00:57:18] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:57:18] [Server thread/INFO]: Loading properties
-[00:57:18] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[00:57:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:57:18] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:57:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:41:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:41:11] [ServerMain/INFO]: Loaded 7 recipes
+[03:41:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:41:12] [Server thread/INFO]: Loading properties
+[03:41:12] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[03:41:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:41:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:41:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[00:57:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[00:57:19] [Server thread/INFO]: Default game type: SURVIVAL
-[00:57:19] [Server thread/INFO]: Generating keypair
-[00:57:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:57:19] [Server thread/INFO]: Using epoll channel type
-[00:57:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:57:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:57:19] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
-[00:57:19] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/3/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[00:57:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[00:57:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4d3e418]
-[00:57:20] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
-[00:57:20] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[00:57:20] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[00:57:20] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[00:57:20] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[00:57:20] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[00:57:20] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.1.63
-[00:57:20] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.6.1
-[00:57:20] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
-[00:57:20] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.3
-[00:57:20] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[00:57:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:57:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[00:57:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:57:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:57:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[00:57:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[00:57:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:57:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[00:57:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:57:22] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[00:57:22] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[00:57:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:57:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:57:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:57:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:57:22] [Server thread/INFO]: Preparing level "world"
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:57:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:57:24] [Server thread/INFO]: Time elapsed: 323 ms
-[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:57:24] [Server thread/INFO]: Time elapsed: 95 ms
-[00:57:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:57:25] [Server thread/INFO]: Time elapsed: 115 ms
-[00:57:25] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
-[00:57:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[00:57:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:57:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:57:26] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[00:57:26] [Server thread/INFO]: [Essentials] Using locale en
-[00:57:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:57:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:57:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[00:57:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[00:57:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[00:57:26] [Server thread/INFO]: [WorldGuard] Loading region data...
-[00:57:26] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[00:57:27] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[00:57:27] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[00:57:27] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.1.63
-[00:57:27] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.5 (running v4.8.3)
-[00:57:27] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.6.1
-[00:57:27] [Server thread/WARN]: [CustomNPCs] A new version (1.7.3) is available!
-[00:57:27] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
-[00:57:27] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
-[00:57:27] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
-[00:57:27] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
-[00:57:28] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[00:57:28] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[00:57:29] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[00:57:29] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
-[00:57:29] [Server thread/INFO]: [AuthMe] 
+[03:41:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:41:13] [Server thread/INFO]: Default game type: SURVIVAL
+[03:41:13] [Server thread/INFO]: Generating keypair
+[03:41:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:41:14] [Server thread/INFO]: Using epoll channel type
+[03:41:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:41:14] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:41:14] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
+[03:41:14] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/3/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[03:41:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[03:41:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3f882518]
+[03:41:14] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
+[03:41:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[03:41:14] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[03:41:14] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[03:41:15] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[03:41:15] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[03:41:15] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.1.63
+[03:41:15] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.6.1
+[03:41:15] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+[03:41:15] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.3
+[03:41:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[03:41:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:41:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[03:41:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:41:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:41:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[03:41:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[03:41:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[03:41:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[03:41:17] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:41:17] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[03:41:18] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[03:41:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:41:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:41:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:41:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:41:18] [Server thread/INFO]: Preparing level "world"
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:41:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:41:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:41:19] [Server thread/INFO]: Time elapsed: 311 ms
+[03:41:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:41:19] [Server thread/INFO]: Time elapsed: 98 ms
+[03:41:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:41:20] [Server thread/INFO]: Time elapsed: 85 ms
+[03:41:20] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
+[03:41:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[03:41:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:41:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:41:21] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[03:41:21] [Server thread/INFO]: [Essentials] Using locale en
+[03:41:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:41:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:41:21] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:41:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[03:41:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[03:41:22] [Server thread/INFO]: [WorldGuard] Loading region data...
+[03:41:22] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[03:41:22] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[03:41:22] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[03:41:22] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.1.63
+[03:41:22] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.5 (running v4.8.3)
+[03:41:22] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.6.1
+[03:41:22] [Server thread/WARN]: [CustomNPCs] A new version (1.7.3) is available!
+[03:41:23] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
+[03:41:23] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
+[03:41:23] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[03:41:23] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[03:41:23] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[03:41:24] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[03:41:24] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[03:41:24] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
+[03:41:24] [Server thread/INFO]: [AuthMe] 
     ___         __  __    __  ___   
    /   | __  __/ /_/ /_  /  |/  /__ 
   / /| |/ / / / __/ __ \/ /|_/ / _ \
  / ___ / /_/ / /_/ / / / /  / /  __/
 /_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
                                     
-[00:57:29] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
-[00:57:29] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
-[00:57:29] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
-[00:57:29] [Server thread/INFO]: [AuthMe] Checking for updates...
-[00:57:29] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.3
-[00:57:29] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.3) by ThizThizzyDizzy
-[00:57:29] [Server thread/INFO]: [TreeFeller] Server version: 1.20.1-R0.1-SNAPSHOT
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Overridables: [LARGE_FERN, FERN, CAVE_AIR, SEAGRASS, AIR, TALL_GRASS, TALL_SEAGRASS, GRASS, WATER]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {SPRUCE_WOOD=SPRUCE_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM, ACACIA_WOOD=ACACIA_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, BIRCH_WOOD=BIRCH_LOG}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Effects: []
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
-[00:57:29] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[00:57:29] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[00:57:29] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[00:57:30] [Server thread/INFO]: Running delayed init tasks
-[00:57:30] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:57:30] [Server thread/INFO]: Done (12.048s)! For help, type "help"
-[00:57:30] [Server thread/INFO]: Timings Reset
-[00:57:30] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] You are running the latest version.
-[00:57:30] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
-[00:57:30] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[00:57:31] [User Authenticator #0/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
-[00:57:31] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:39027] logged in with entity id 124 at ([world]238.5, 66.0, 401.5)
-[00:57:32] [Craft Scheduler Thread - 5 - CustomNPCs/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:57:35] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[00:57:39] [User Authenticator #0/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
-[00:57:39] [Server thread/INFO]: BekauseELF[/127.138.209.14:60109] logged in with entity id 334 at ([world]238.65110515283266, 65.9375, 409.3660726766584)
-[00:57:39] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
-[00:57:49] [User Authenticator #0/INFO]: UUID of player focupepardo is 27ca9e32-5113-3128-be30-9750a80c043f
-[00:57:49] [Server thread/INFO]: focupepardo[/127.194.219.223:51767] logged in with entity id 341 at ([world]244.5, 66.0, 414.5)
-[00:57:51] [User Authenticator #0/INFO]: UUID of player Matinico1272 is e829b375-d13a-37f7-bbfe-11eab90f2c47
-[00:57:51] [Server thread/INFO]: Matinico1272[/127.186.18.125:50947] logged in with entity id 342 at ([world]250.5, 63.0, 407.5)
-[00:57:57] [Server thread/INFO]: [AuthMe] AlejandraOwO registered 127.207.145.7
-[00:57:57] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
-[00:58:09] [Server thread/INFO]: [AuthMe] focupepardo registered 127.194.219.223
-[00:58:09] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] focupepardo logged in 127.194.219.223
-[00:58:37] [Server thread/INFO]: BekauseELF issued server command: /tpaall BekauseELF
-[00:58:47] [Server thread/INFO]: focupepardo issued server command: /tpaccept
-[00:58:47] [Server thread/INFO]: [Essentials] focupepardo was denied access to command.
-[00:58:48] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[00:58:54] [Server thread/INFO]: [AuthMe] Matinico1272 registered 127.186.18.125
-[00:58:54] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Matinico1272 logged in 127.186.18.125
-[00:59:51] [Server thread/INFO]: BekauseELF issued server command: /tp @a BekauseELF
-[01:00:09] [Server thread/INFO]: Matinico1272 has made the advancement [Monster Hunter]
-[01:00:27] [Server thread/INFO]: BekauseELF issued server command: /time set day
-[01:01:29] [User Authenticator #1/INFO]: UUID of player Prinstak is cd9beb2e-27a9-360d-9d09-27a9699e6b3d
-[01:01:29] [Server thread/INFO]: Prinstak[/127.93.88.95:51633] logged in with entity id 894 at ([world]239.5, 66.0, 417.5)
-[01:01:33] [Server thread/INFO]: BekauseELF issued server command: /gamemode survival
-[01:01:46] [Server thread/INFO]: [AuthMe] Prinstak registered 127.93.88.95
-[01:01:46] [Craft Scheduler Thread - 16 - AuthMe/INFO]: [AuthMe] Prinstak logged in 127.93.88.95
-[01:04:02] [Server thread/INFO]: BekauseELF issued server command: /give @a bread 32
-[01:04:16] [Server thread/INFO]: BekauseELF issued server command: /give BekauseELF bread
-[01:04:43] [User Authenticator #2/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
-[01:04:44] [Server thread/INFO]: Martinez250809_[/127.98.196.114:55485] logged in with entity id 1558 at ([world]241.5, 66.0, 419.5)
-[01:04:58] [Server thread/INFO]: [AuthMe] Martinez250809_ registered 127.98.196.114
-[01:04:58] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
-[01:05:33] [Server thread/INFO]: Matinico1272 has made the advancement [Acquire Hardware]
-[01:05:36] [Server thread/INFO]: AlejandraOwO has made the advancement [Stone Age]
-[01:05:41] [Server thread/INFO]: Martinez250809_ was slain by Iron Golem
-[01:06:17] [Server thread/INFO]: AlejandraOwO has made the advancement [Getting an Upgrade]
-[01:06:22] [Server thread/INFO]: Martinez250809_ has made the advancement [Ice Bucket Challenge]
-[01:06:28] [User Authenticator #3/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:06:28] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:46391] logged in with entity id 2159 at ([world]235.5, 66.0, 412.5)
-[01:06:39] [Server thread/INFO]: focupepardo has made the advancement [Stone Age]
-[01:06:42] [Server thread/INFO]: Matinico1272 has made the advancement [Isn't It Iron Pick]
-[01:06:43] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Stone Age]
-[01:06:43] [Server thread/INFO]: Prinstak has made the advancement [Stone Age]
-[01:06:48] [Server thread/INFO]: [AuthMe] FoxyThePirate30 registered 127.48.24.227
-[01:06:48] [Craft Scheduler Thread - 43 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[01:06:54] [Async Chat Thread - #1/INFO]: [Not Secure] <FoxyThePirate30> well well well
-[01:07:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Prinstak> Cállese sapo
-[01:07:07] [Async Chat Thread - #1/INFO]: [Not Secure] <FoxyThePirate30> no
-[01:07:16] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=217, y=48, z=159}
-[01:07:21] [Server thread/INFO]: focupepardo has made the advancement [Getting an Upgrade]
-[01:07:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Prinstak> Ya vino a chimbear la vida de buena
-[01:07:53] [Server thread/INFO]: BekauseELF issued server command: /tpa AlejandraOwO
-[01:08:13] [Server thread/INFO]: Matinico1272 has made the advancement [Stone Age]
-[01:08:18] [Server thread/INFO]: Martinez250809_ has made the advancement [Monster Hunter]
-[01:08:53] [Server thread/INFO]: Prinstak has made the advancement [Getting an Upgrade]
-[01:08:54] [Server thread/INFO]: AlejandraOwO issued server command: /tpignore
-[01:08:58] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Getting an Upgrade]
-[01:08:59] [Server thread/INFO]: AlejandraOwO issued server command: /tpdecline
-[01:09:04] [Server thread/INFO]: focupepardo has made the advancement [Monster Hunter]
-[01:09:07] [Server thread/INFO]: Martinez250809_ was shot by Pillager
-[01:09:10] [Server thread/INFO]: Martinez250809_ issued server command: /huskhomes:back
-[01:09:13] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[01:09:13] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[01:09:16] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO
-[01:09:31] [User Authenticator #4/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:09:31] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:57289] logged in with entity id 5323 at ([world]281.4271843159116, 67.0, 519.0005119192459)
-[01:09:31] [Craft Scheduler Thread - 53 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[01:09:41] [User Authenticator #4/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[01:09:41] [Server thread/INFO]: Nartic_MC[/127.151.2.191:38967] logged in with entity id 5565 at ([world]242.5, 65.0, 402.5)
-[01:09:46] [Server thread/INFO]: BekauseELF issued server command: /spawn
-[01:10:06] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_
-[01:10:31] [Server thread/INFO]: [AuthMe] Nartic_MC registered 127.151.2.191
-[01:10:31] [Craft Scheduler Thread - 59 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[01:10:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Nartic_MC> hello huys
-[01:10:39] [Async Chat Thread - #3/INFO]: [Not Secure] <FoxyThePirate30> no
-[01:10:43] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC
-[01:11:33] [Server thread/INFO]: Martinez250809_ has made the advancement [Sweet Dreams]
-[01:11:41] [Server thread/INFO]: Nartic_MC has made the advancement [Diamonds!]
-[01:11:42] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC BekauseELF
-[01:11:53] [Server thread/INFO]: AlejandraOwO has made the advancement [Monster Hunter]
-[01:12:09] [Server thread/INFO]: BekauseELF issued server command: /clean BekauseELF diamond
-[01:12:10] [Server thread/INFO]: FoxyThePirate30 was shot by Pillager
-[01:12:17] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
-[01:12:18] [Server thread/INFO]: BekauseELF issued server command: /clean Nartic_MC diamond
-[01:12:18] [Server thread/INFO]: Matinico1272 has made the advancement [Not Today, Thank You]
-[01:12:26] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[01:12:57] [Server thread/INFO]: AlejandraOwO has made the advancement [Acquire Hardware]
-[01:13:01] [Server thread/INFO]: Prinstak has made the advancement [Monster Hunter]
-[01:13:09] [User Authenticator #5/INFO]: UUID of player JUANJO_MC is 7e67f95e-2350-37f8-aaa1-39c73596de7b
-[01:13:09] [Server thread/INFO]: JUANJO_MC[/127.51.240.48:40251] logged in with entity id 8105 at ([world]241.5, 66.0, 415.5)
-[01:13:38] [Server thread/INFO]: [AuthMe] JUANJO_MC registered 127.51.240.48
-[01:13:38] [Craft Scheduler Thread - 75 - AuthMe/INFO]: [AuthMe] JUANJO_MC logged in 127.51.240.48
-[01:13:49] [Server thread/INFO]: AlejandraOwO has made the advancement [What a Deal!]
-[01:14:16] [Server thread/INFO]: focupepardo issued server command: /teammsg
-[01:14:29] [Server thread/INFO]: AlejandraOwO has made the advancement [Isn't It Iron Pick]
-[01:14:31] [Server thread/INFO]: focupepardo issued server command: /teammsg s
-[01:14:32] [Server thread/INFO]: AlejandraOwO has made the advancement [Suit Up]
-[01:14:35] [Server thread/INFO]: focupepardo issued server command: /team
-[01:14:36] [Server thread/INFO]: FoxyThePirate30 has made the advancement [Ice Bucket Challenge]
-[01:14:39] [Server thread/INFO]: focupepardo has made the advancement [Acquire Hardware]
-[01:14:47] [Server thread/INFO]: JUANJO_MC has made the advancement [Getting an Upgrade]
-[01:14:57] [Server thread/INFO]: FoxyThePirate30 was blown up by Creeper
-[01:15:00] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
-[01:15:01] [Server thread/INFO]: Martinez250809_ has made the advancement [Acquire Hardware]
-[01:15:04] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Acquire Hardware]
-[01:15:35] [Server thread/INFO]: AlejandraOwO has made the advancement [Sweet Dreams]
-[01:15:47] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Isn't It Iron Pick]
-[01:16:16] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Not Today, Thank You]
-[01:16:17] [Server thread/INFO]: Nartic_MC has made the advancement [Acquire Hardware]
-[01:16:20] [Server thread/INFO]: Nartic_MC lost connection: Disconnected
-[01:16:38] [Server thread/INFO]: Prinstak has made the advancement [Acquire Hardware]
-[01:18:10] [Server thread/INFO]: Martinez250809_ lost connection: Disconnected
-[01:18:46] [Server thread/INFO]: JUANJO_MC has made the advancement [Stone Age]
-[01:19:11] [User Authenticator #6/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
-[01:19:11] [Server thread/INFO]: Martinez250809_[/127.98.196.114:60857] logged in with entity id 12762 at ([world]282.3770097412572, 66.0, 537.7028792435488)
-[01:19:11] [Craft Scheduler Thread - 106 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
-[01:19:11] [Server thread/INFO]: focupepardo has made the advancement [Not Today, Thank You]
-[01:19:19] [Server thread/INFO]: Matinico1272 has made the advancement [Suit Up]
-[01:19:23] [Server thread/WARN]: FoxyThePirate30 moved too quickly! 7.03951604030874,0.23152379758701613,19.8094127251411
-[01:20:05] [Server thread/INFO]: JUANJO_MC has made the advancement [Acquire Hardware]
-[01:20:08] [Async Chat Thread - #4/INFO]: [Not Secure] <AlejandraOwO> 565 1035
-[01:22:11] [User Authenticator #7/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[01:22:11] [Server thread/INFO]: Nartic_MC[/127.151.2.191:53383] logged in with entity id 15567 at ([world]218.94096225335815, 85.0625, 504.13101641996883)
-[01:22:11] [Craft Scheduler Thread - 123 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[01:22:19] [Server thread/INFO]: AlejandraOwO has made the advancement [A Seedy Place]
-[01:23:35] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Suit Up]
-[01:24:16] [Server thread/INFO]: focupepardo issued server command: /minecraft:tell JUANJO_MC sdasdsa
-[01:24:20] [Server thread/INFO]: focupepardo issued server command: /minecraft:tell JUANJO_MC sdasdsa
-[01:24:31] [Tuinity Chunk System Worker #0/ERROR]: Detected setBlock in a far chunk [27, 83], pos: MutableBlockPosition{x=432, y=23, z=1328}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
-[01:24:52] [Server thread/INFO]: FoxyThePirate30 has made the advancement [Acquire Hardware]
-[01:25:03] [Server thread/INFO]: BekauseELF issued server command: /gamerule keepInventory true
-[01:25:03] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Gamerule keepInventory is now set to: true]
-[01:25:15] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [The Cutest Predator]
-[01:25:16] [Server thread/INFO]: JUANJO_MC has made the advancement [Suit Up]
-[01:25:48] [Server thread/INFO]: focupepardo has made the advancement [Suit Up]
-[01:25:54] [Server thread/INFO]: focupepardo has made the advancement [Isn't It Iron Pick]
-[01:25:58] [Server thread/INFO]: Prinstak has made the advancement [Isn't It Iron Pick]
-[01:26:08] [Server thread/INFO]: JUANJO_MC has made the advancement [Isn't It Iron Pick]
-[01:26:13] [Server thread/INFO]: FoxyThePirate30 has made the advancement [Monster Hunter]
-[01:29:40] [Server thread/INFO]: BekauseELF issued server command: /kick focupepardo gay
-[01:29:40] [Server thread/INFO]: focupepardo lost connection: gay
-[01:29:40] [Server thread/INFO]: [Essentials] Player BekauseELF kicked focupepardo for gay.
-[01:29:48] [User Authenticator #8/INFO]: UUID of player focupepardo is 27ca9e32-5113-3128-be30-9750a80c043f
-[01:29:48] [Server thread/INFO]: focupepardo[/127.194.219.223:52163] logged in with entity id 24236 at ([world]459.9902271642787, 68.5, 507.52559147698054)
-[01:29:49] [Craft Scheduler Thread - 163 - AuthMe/INFO]: [AuthMe] focupepardo logged in 127.194.219.223
-[01:30:03] [Async Chat Thread - #7/INFO]: [Not Secure] <focupepardo> ?
-[01:30:32] [User Authenticator #8/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:30:32] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6a78df5f[id=86ea816a-c54e-3f07-b4e4-6c2efc0c5e45,name=FoxyThePirate30,properties={},legacy=false] (/127.48.24.227:41251): The same username is already playing on the server!
-[01:30:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a78df5f[id=86ea816a-c54e-3f07-b4e4-6c2efc0c5e45,name=FoxyThePirate30,properties={},legacy=false] (/127.48.24.227:41251) lost connection: The same username is already playing on the server!
-[01:30:33] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[01:30:33] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[01:30:42] [User Authenticator #8/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:30:42] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:43073] logged in with entity id 25306 at ([world]721.5679321877694, 66.0, 854.7922963231451)
-[01:30:42] [Craft Scheduler Thread - 163 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[01:30:54] [Server thread/INFO]: Prinstak has made the advancement [Sweet Dreams]
-[01:31:34] [Server thread/INFO]: Nartic_MC has made the advancement [Isn't It Iron Pick]
-[01:31:42] [Server thread/INFO]: focupepardo has made the advancement [Sweet Dreams]
-[01:31:58] [Server thread/INFO]: Nartic_MC has made the advancement [Stone Age]
-[01:32:11] [Async Chat Thread - #9/INFO]: [Not Secure] <AlejandraOwO> [x:680, y:115, z:1043, dim:minecraft:overworld]
-[01:33:09] [Server thread/INFO]: BekauseELF issued server command: /kick Nartic_MC
-[01:33:09] [Server thread/INFO]: Nartic_MC lost connection: Kicked from server.
-[01:33:09] [Server thread/INFO]: [Essentials] Player BekauseELF kicked Nartic_MC for Kicked from server..
-[01:34:24] [Server thread/INFO]: BekauseELF issued server command: /team add PAN
-[01:34:24] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Created team [PAN]]
-[01:34:52] [Server thread/INFO]: focupepardo has made the advancement [Diamonds!]
-[01:34:59] [Server thread/INFO]: BekauseELF issued server command: /team modify PAN prefix {"text":"[PAN] ","color":"green","bold":true}
-[01:35:17] [Server thread/INFO]: BekauseELF issued server command: /team join PAN @a
-[01:35:17] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Added 8 members to team [PAN]]
-[01:35:22] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Bewitched]
-[01:35:36] [Server thread/INFO]: BekauseELF issued server command: /team leave
-[01:35:44] [Server thread/INFO]: BekauseELF issued server command: /team leave BekauseELF
-[01:35:44] [Server thread/INFO]: [[PAN] BekauseELF: Removed BekauseELF from any team]
-[01:35:54] [Server thread/INFO]: BekauseELF issued server command: /team join Baguette BekauseELF
-[01:35:54] [Server thread/INFO]: [BekauseELF: Added BekauseELF to team [Baguette]]
-[01:36:05] [Async Chat Thread - #11/INFO]: [Not Secure] <BekauseELF> lol
-[01:36:12] [Server thread/INFO]: [PAN] FoxyThePirate30 was blown up by Creeper
-[01:36:16] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
-[01:36:29] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Not Today, Thank You]
-[01:36:37] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Not Today, Thank You]
-[01:37:06] [Server thread/INFO]: [PAN] Martinez250809_ was killed by Witch using magic
-[01:37:10] [Server thread/INFO]: Martinez250809_ issued server command: /huskhomes:back
-[01:37:24] [Server thread/INFO]: [PAN] Prinstak has made the advancement [Not Today, Thank You]
-[01:37:45] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Stone Age]
-[01:38:02] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Getting an Upgrade]
-[01:38:11] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Diamonds!]
-[01:38:29] [Server thread/INFO]: BekauseELF issued server command: /reload
-[01:38:29] [Server thread/INFO]: BekauseELF: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[01:38:33] [Async Chat Thread - #13/INFO]: [Not Secure] <BekauseELF> confirm
-[01:38:38] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Diamonds!]
-[01:38:42] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Sweet Dreams]
-[01:38:48] [Server thread/INFO]: BekauseELF issued server command: /reload confirm
-[01:38:48] [Server thread/INFO]: BekauseELF: Please note that this command is not supported and may cause issues when using some plugins.
-[01:38:48] [Server thread/INFO]: BekauseELF: If you encounter any issues please use the /stop command to restart your server.
-[01:38:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:38:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:38:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
-[01:38:48] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.24.3
-[01:38:48] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.24.3) by ThizThizzyDizzy
-[01:38:48] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.7.0-FORK-b53
-[01:38:48] [Server thread/INFO]: [AuthMe] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
-[01:38:48] [Server thread/INFO]: [CustomNPCs] Disabling CustomNPCs v1.6.1
-[01:38:48] [ForkJoinPool.commonPool-worker-2/INFO]: [CustomNPCs] ScheduledExecutorService successfully shut down!
-[01:38:48] [Server thread/INFO]: [ChunkyBorder] Disabling ChunkyBorder v1.1.63
-[01:38:48] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[01:38:48] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[01:38:48] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[01:38:48] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[01:38:48] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[01:38:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[01:38:48] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[01:38:48] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.146
-[01:38:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
-[01:38:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:38:48] [Server thread/INFO]: Loaded 7 recipes
-[01:38:49] [Server thread/WARN]: [PluginInitializerManager] ======== WARNING ========
-[01:38:49] [Server thread/WARN]: [PluginInitializerManager] You are reloading while having Paper plugins installed on your server.
-[01:38:49] [Server thread/WARN]: [PluginInitializerManager] Paper plugins do NOT support being reloaded. This will cause some unexpected issues.
-[01:38:49] [Server thread/WARN]: [PluginInitializerManager] =========================
-[01:38:49] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
-[01:38:49] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/3/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[01:38:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[01:38:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2732f5b2]
-[01:38:49] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
-[01:38:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[01:38:49] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[01:38:49] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[01:38:49] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[01:38:49] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[01:38:49] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.1.63
-[01:38:49] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.6.1
-[01:38:49] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
-[01:38:49] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.3
-[01:38:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
-[01:38:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:38:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[01:38:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:38:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:38:49] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[01:38:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[01:38:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
-[01:38:51] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[01:38:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[01:38:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[01:38:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[01:38:51] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[01:38:51] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[01:38:51] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
-[01:38:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[01:38:51] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[01:38:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:38:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:38:51] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[01:38:51] [Server thread/INFO]: [Essentials] Using locale en
-[01:38:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:38:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:38:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[01:38:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[01:38:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[01:38:51] [Server thread/INFO]: [WorldGuard] Loading region data...
-[01:38:52] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[01:38:52] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[01:38:52] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[01:38:52] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.1.63
-[01:38:52] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9.5 (running v4.8.3)
-[01:38:52] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.6.1
-[01:38:52] [Server thread/WARN]: [CustomNPCs] A new version (1.7.3) is available!
-[01:38:52] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
-[01:38:52] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
-[01:38:52] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
-[01:38:52] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
-[01:38:52] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[01:38:52] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[01:38:52] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[01:38:52] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/3/servidor_minecraft/plugins/Essentials/spawn.yml'
-[01:38:52] [Server thread/INFO]: [AuthMe] 
-    ___         __  __    __  ___   
-   /   | __  __/ /_/ /_  /  |/  /__ 
-  / /| |/ / / / __/ __ \/ /|_/ / _ \
- / ___ / /_/ / /_/ / / / /  / /  __/
-/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
-                                    
-[01:38:52] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
-[01:38:52] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
-[01:38:52] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
-[01:38:52] [Server thread/INFO]: [AuthMe] Checking for updates...
-[01:38:52] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.3
-[01:38:52] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.3) by ThizThizzyDizzy
-[01:38:52] [Server thread/INFO]: [TreeFeller] Server version: 1.20.1-R0.1-SNAPSHOT
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Overridables: [LARGE_FERN, FERN, CAVE_AIR, SEAGRASS, AIR, TALL_GRASS, TALL_SEAGRASS, GRASS, WATER]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {SPRUCE_WOOD=SPRUCE_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM, ACACIA_WOOD=ACACIA_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, BIRCH_WOOD=BIRCH_LOG}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Effects: []
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[01:38:52] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
-[01:38:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[01:38:52] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[01:38:52] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[01:38:52] [Server thread/INFO]: BekauseELF: Reload complete.
-[01:38:52] [Server thread/INFO]: Timings Reset
-[01:38:52] [Craft Scheduler Thread - 213 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:38:52] [Craft Scheduler Thread - 216 - AuthMe/INFO]: [AuthMe] You are running the latest version.
-[01:38:52] [Craft Scheduler Thread - 213 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
-[01:38:52] [Craft Scheduler Thread - 213 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[01:38:55] [Craft Scheduler Thread - 217 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[01:38:57] [User Authenticator #9/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[01:38:57] [Server thread/INFO]: Nartic_MC[/127.151.2.191:37789] logged in with entity id 35184 at ([world]368.36411342314494, 66.0, 401.8570317918577)
-[01:38:57] [Craft Scheduler Thread - 217 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[01:38:59] [Server thread/INFO]: AlejandraOwO lost connection: Disconnected
-[01:39:02] [Server thread/INFO]: Martinez250809_ lost connection: Disconnected
-[01:39:06] [User Authenticator #9/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
-[01:39:06] [Server thread/INFO]: Martinez250809_[/127.98.196.114:46977] logged in with entity id 35329 at ([world]-1492.9482680543583, 61.875, 331.1813623761003)
-[01:39:06] [Craft Scheduler Thread - 217 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
-[01:39:08] [Server thread/INFO]: [PAN] Martinez250809_ was slain by Zombie
-[01:39:13] [User Authenticator #9/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
-[01:39:13] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:49243] logged in with entity id 36319 at ([world]677.233169449287, 104.0, 1070.5910387203483)
-[01:39:13] [Craft Scheduler Thread - 213 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
-[01:39:16] [Server thread/INFO]: AlejandraOwO lost connection: Disconnected
-[01:39:19] [Server thread/INFO]: JUANJO_MC issued server command: /god
-[01:39:19] [Craft Scheduler Thread - 214 - AuthMe/INFO]: [AuthMe] focupepardo logged in 127.194.219.223
-[01:39:20] [User Authenticator #9/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
-[01:39:20] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:60829] logged in with entity id 36450 at ([world]676.3000000119209, 105.0, 1070.7327836193995)
-[01:39:20] [Craft Scheduler Thread - 213 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
-[01:39:21] [Server thread/INFO]: Matinico1272 lost connection: Disconnected
-[01:39:21] [Server thread/INFO]: BekauseELF lost connection: Disconnected
-[01:39:23] [Server thread/INFO]: FoxyThePirate30 lost connection: Disconnected
-[01:39:25] [Server thread/INFO]: Prinstak lost connection: Disconnected
-[01:39:26] [User Authenticator #9/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
-[01:39:26] [Server thread/INFO]: BekauseELF[/127.138.209.14:59001] logged in with entity id 36504 at ([world]-14.669300460169714, 196.0, 529.9262410889352)
-[01:39:26] [Craft Scheduler Thread - 213 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
-[01:39:27] [Craft Scheduler Thread - 213 - AuthMe/INFO]: [AuthMe] JUANJO_MC logged in 127.51.240.48
-[01:39:28] [User Authenticator #9/INFO]: UUID of player Matinico1272 is e829b375-d13a-37f7-bbfe-11eab90f2c47
-[01:39:28] [Server thread/INFO]: Matinico1272[/127.186.18.125:34229] logged in with entity id 36518 at ([world]694.6556718095314, 104.0, 1045.4360598106855)
-[01:39:28] [Craft Scheduler Thread - 217 - AuthMe/INFO]: [AuthMe] Matinico1272 logged in 127.186.18.125
-[01:39:33] [User Authenticator #9/INFO]: UUID of player Prinstak is cd9beb2e-27a9-360d-9d09-27a9699e6b3d
-[01:39:33] [Server thread/INFO]: Prinstak[/127.93.88.95:58205] logged in with entity id 36572 at ([world]286.92436471390613, 63.0, 441.76342490028674)
-[01:39:33] [Craft Scheduler Thread - 217 - AuthMe/INFO]: [AuthMe] Prinstak logged in 127.93.88.95
-[01:39:37] [User Authenticator #9/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:39:37] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:59727] logged in with entity id 36594 at ([world]987.6360413804655, 67.0, 999.6999999880791)
-[01:39:37] [Craft Scheduler Thread - 217 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[01:39:40] [Server thread/INFO]: [PAN] Martinez250809_ was killed by Witch using magic
-[01:39:42] [Server thread/INFO]: Nartic_MC lost connection: Disconnected
-[01:39:44] [Server thread/INFO]: focupepardo issued server command: /function eg:tile/st/spawn_egg
-[01:39:45] [Server thread/INFO]: focupepardo issued server command: /function eg:tile/st/spawn_egg
-[01:39:47] [Server thread/INFO]: focupepardo issued server command: /function eg:tile/wt/spawn_egg
-[01:39:47] [Async Chat Thread - #14/INFO]: [Not Secure] <FoxyThePirate30> quien me da un pederna
-[01:39:50] [Server thread/INFO]: BekauseELF issued server command: /gamemode spectator BekauseELF
-[01:39:54] [Async Chat Thread - #13/INFO]: [Not Secure] <FoxyThePirate30> pedernal
-[01:39:57] [Server thread/INFO]: BekauseELF issued server command: /gamemode survival BekauseELF
-[01:39:59] [Server thread/INFO]: [PAN] focupepardo has made the advancement [What a Deal!]
-[01:40:03] [Async Chat Thread - #14/INFO]: [Not Secure] <FoxyThePirate30> :D
-[01:40:09] [Async Chat Thread - #13/INFO]: [Not Secure] <Prinstak> Metete el pedernal por donde te quepa
-[01:40:14] [Server thread/INFO]: [PAN] FoxyThePirate30 blew up
-[01:40:19] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
-[01:40:24] [Server thread/INFO]: [PAN] Prinstak has made the advancement [Diamonds!]
-[01:43:08] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=226, y=-7, z=321}
-[01:43:08] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=225, y=-7, z=328}
-[01:43:12] [User Authenticator #10/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[01:43:13] [Server thread/INFO]: Nartic_MC[/127.151.2.191:33613] logged in with entity id 41377 at ([world]379.69999998807907, 64.0, 414.69999998807907)
-[01:43:13] [Craft Scheduler Thread - 228 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[01:44:17] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO Matinico1272
-[01:44:29] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
-[01:45:03] [Server thread/INFO]: BekauseELF issued server command: /team join PAN Nartic_MC
-[01:45:03] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Added Nartic_MC to team [PAN]]
-[01:46:35] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Monster Hunter]
-[01:47:10] [Async Chat Thread - #15/INFO]: [Not Secure] <JUANJO_MC> bro
-[01:47:14] [Async Chat Thread - #16/INFO]: [Not Secure] <BekauseELF> mande
-[01:47:20] [Async Chat Thread - #15/INFO]: [Not Secure] <JUANJO_MC> hay aldeas aparte de la del spawn
-[01:47:24] [Async Chat Thread - #16/INFO]: [Not Secure] <JUANJO_MC> ?
-[01:47:24] [Async Chat Thread - #15/INFO]: [Not Secure] <BekauseELF> si
-[01:47:32] [Async Chat Thread - #16/INFO]: [Not Secure] <BekauseELF> no te alejes demasiado
-[01:47:37] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=226, y=-7, z=321}
-[01:47:37] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=225, y=-7, z=328}
-[01:47:37] [Async Chat Thread - #15/INFO]: [Not Secure] <FoxyThePirate30> corre
-[01:47:37] [Async Chat Thread - #16/INFO]: [Not Secure] <JUANJO_MC> ta bien
-[01:48:13] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [Safe Haven]
-[01:48:15] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Safe Haven]
-[01:48:16] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=6, y=-25, z=4}
-[01:48:23] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Isn't It Iron Pick]
-[01:48:39] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Call For Adventure]
-[01:48:50] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=216, y=47, z=211}
-[01:49:27] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Safe Haven]
-[01:49:48] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Hot Stuff]
-[01:50:27] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Call For Adventure]
-[01:50:27] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
-[01:50:27] [Tuinity Chunk System Worker #0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
-[01:50:41] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Diamonds!]
-[01:50:45] [Async Chat Thread - #17/INFO]: [Not Secure] <BekauseELF> no esta permitido el nether
-[01:50:51] [Async Chat Thread - #18/INFO]: [Not Secure] <FoxyThePirate30> the nether
-[01:50:56] [Server thread/INFO]: AlejandraOwO issued server command: /tp AlejandraOwO 640.0 71 984.0
-[01:50:56] [Server thread/INFO]: [Essentials] AlejandraOwO was denied access to command.
-[01:51:05] [Async Chat Thread - #17/INFO]: [Not Secure] <focupepardo> solo para el logro bro
-[01:51:09] [Async Chat Thread - #18/INFO]: [Not Secure] <BekauseELF> no}
-[01:51:15] [Async Chat Thread - #17/INFO]: [Not Secure] <focupepardo> ptm
-[01:51:27] [Server thread/INFO]: [PAN] Martinez250809_ was slain by Vex
-[01:51:54] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[01:51:54] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[01:51:56] [User Authenticator #11/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[01:51:56] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:49193] logged in with entity id 54249 at ([world]217.39654577828603, 66.80958749637588, 528.3010349301468)
-[01:51:56] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[01:51:58] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/47373, uuid='8f7aecb0-2e7a-45b6-9a76-344266f9462a', l='ServerLevel[world]', x=372.35, y=71.18, z=48.79, cpos=[23, 3], tl=5456, v=true] died, message: 'Toolsmith was slain by Zombie'
-[01:52:23] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [We Need to Go Deeper]
-[01:52:24] [Server thread/INFO]: [PAN] focupepardo has made the advancement [We Need to Go Deeper]
-[01:52:28] [Server thread/INFO]: [PAN] Martinez250809_ was killed by Witch using magic
-[01:52:28] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:32] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:33] [Async Chat Thread - #19/INFO]: [Not Secure] <Prinstak> Ban
-[01:52:34] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:34] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:34] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:34] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:35] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:35] [Async Chat Thread - #20/INFO]: [Not Secure] <Nartic_MC> BAN
-[01:52:35] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:35] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:35] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:35] [Async Chat Thread - #20/INFO]: [Not Secure] <Prinstak> Ban
-[01:52:35] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:36] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:36] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:36] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:36] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:52:36] [Server thread/INFO]: AlejandraOwO lost connection: Kicked for spamming
-[01:52:38] [Async Chat Thread - #19/INFO]: [Not Secure] <Nartic_MC> BAN
-[01:52:39] [Async Chat Thread - #20/INFO]: [Not Secure] <JUANJO_MC> FUE SIN QUERER
-[01:52:40] [Async Chat Thread - #19/INFO]: [Not Secure] <Nartic_MC> BAN
-[01:52:41] [Async Chat Thread - #20/INFO]: [Not Secure] <Matinico1272> BAN
-[01:52:43] [User Authenticator #11/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
-[01:52:43] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:53659] logged in with entity id 55518 at ([world]659.9313074811031, 74.0, 1171.6527555161854)
-[01:52:43] [Craft Scheduler Thread - 265 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
-[01:52:44] [Async Chat Thread - #19/INFO]: [Not Secure] <Matinico1272> BAN
-[01:52:45] [Async Chat Thread - #20/INFO]: [Not Secure] <focupepardo> me tropec{e
-[01:52:51] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> BAN
-[01:53:03] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> haganle /clear
-[01:53:25] [Async Chat Thread - #19/INFO]: [Not Secure] <BekauseELF> clear dice el pueblo?
-[01:53:30] [Async Chat Thread - #20/INFO]: [Not Secure] <Nartic_MC> SI
-[01:53:33] [Async Chat Thread - #19/INFO]: [Not Secure] <FoxyThePirate30> ejecucion
-[01:53:37] [Async Chat Thread - #20/INFO]: [Not Secure] <Prinstak> Sangre
-[01:53:39] [Async Chat Thread - #19/INFO]: [Not Secure] <FoxyThePirate30> ahi en la aldea de spawn
-[01:53:43] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> el pueblo quiere sangre
-[01:53:54] [Async Chat Thread - #19/INFO]: [Not Secure] <AlejandraOwO> ./clear en la aldea del spawn
-[01:53:57] [Server thread/INFO]: [PAN] Martinez250809_ was slain by Vindicator
-[01:53:57] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> enfrente de todos
-[01:53:59] [Server thread/INFO]: Martinez250809_ issued server command: /huskhomes:back
-[01:54:04] [Server thread/INFO]: BekauseELF issued server command: /kick focupepardo ups
-[01:54:04] [Server thread/INFO]: focupepardo lost connection: ups
-[01:54:04] [Server thread/INFO]: [Essentials] Player BekauseELF kicked focupepardo for ups.
-[01:54:05] [Server thread/INFO]: Martinez250809_ issued server command: /huskhomes:back
-[01:54:09] [User Authenticator #12/INFO]: UUID of player focupepardo is 27ca9e32-5113-3128-be30-9750a80c043f
-[01:54:09] [Server thread/INFO]: focupepardo[/127.194.219.223:56745] logged in with entity id 57259 at ([world]367.7464725568017, 65.0, 399.58248893633396)
-[01:54:10] [Craft Scheduler Thread - 268 - AuthMe/INFO]: [AuthMe] focupepardo logged in 127.194.219.223
-[01:54:12] [Server thread/INFO]: [PAN] Martinez250809_ was slain by Vindicator
-[01:54:24] [Server thread/INFO]: BekauseELF issued server command: /gamerule keepInventory false
-[01:54:24] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Gamerule keepInventory is now set to: false]
-[01:54:33] [Server thread/INFO]: BekauseELF issued server command: /kill focupepardo
-[01:54:33] [Server thread/INFO]: [PAN] focupepardo died
-[01:54:39] [Server thread/INFO]: focupepardo issued server command: /huskhomes:back
-[01:54:40] [Server thread/INFO]: BekauseELF issued server command: /kill JUANJO_MC
-[01:54:40] [Server thread/INFO]: [PAN] JUANJO_MC died
-[01:54:48] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:back
-[01:54:50] [Async Chat Thread - #19/INFO]: [Not Secure] <BekauseELF> lo siento
-[01:54:50] [Async Chat Thread - #20/INFO]: [Not Secure] <AlejandraOwO> y el ban?
-[01:54:54] [Async Chat Thread - #19/INFO]: [Not Secure] <BekauseELF> me tropece
-[01:55:04] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Ol' Betsy]
-[01:55:51] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Take Aim]
-[01:55:54] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Sweet Dreams]
-[01:56:27] [User Authenticator #13/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
-[01:56:27] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:43829] logged in with entity id 61125 at ([world]235.5, 67.0, 408.5)
-[01:56:27] [Server thread/INFO]: BekauseELF issued server command: /sethome casa
-[01:56:33] [Server thread/INFO]: BekauseELF issued server command: /tp Prinstak
-[01:56:34] [Async Chat Thread - #21/INFO]: [Not Secure] <AlejandraOwO> [x:693, y:64, z:1748, dim:minecraft:overworld]
-[01:56:43] [Server thread/INFO]: Villager EntityVillager['Librarian'/59600, uuid='e3c3bf48-8660-4835-82d3-904db3423e32', l='ServerLevel[world]', x=680.73, y=62.74, z=1656.67, cpos=[42, 103], tl=5888, v=true] died, message: 'Librarian was slain by Zombie'
-[01:57:09] [Server thread/INFO]: [AuthMe] HannaOwO1520 registered 127.37.7.57
-[01:57:09] [Craft Scheduler Thread - 279 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
-[01:57:22] [Async Chat Thread - #22/INFO]: [Not Secure] <HannaOwO1520> hola
-[01:57:30] [Server thread/INFO]: [PAN] Martinez250809_ was slain by Vindicator
-[01:57:37] [Server thread/INFO]: BekauseELF issued server command: /team join PAN HannaOwO1520
-[01:57:37] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Added HannaOwO1520 to team [PAN]]
-[01:57:47] [Server thread/INFO]: AlejandraOwO lost connection: Disconnected
-[01:58:00] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [Sweet Dreams]
-[01:58:13] [Server thread/INFO]: [PAN] Matinico1272 was killed by Witch using magic
-[01:58:32] [Server thread/WARN]: Boat (vehicle of Prinstak) moved wrongly! 3.074410915730768
-[01:58:34] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [What a Deal!]
-[01:58:36] [Async Chat Thread - #23/INFO]: [Not Secure] <HannaOwO1520> Parce donde estan
-[01:58:45] [Async Chat Thread - #24/INFO]: [Not Secure] <FoxyThePirate30> esparcidos por el mundo
-[01:58:46] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520 BekauseELF
-[01:58:47] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Not Today, Thank You]
-[01:58:51] [Async Chat Thread - #23/INFO]: [Not Secure] <HannaOwO1520> holis
-[01:58:55] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/256, uuid='779c3dda-1d4c-4d13-8f20-12bbe406aae4', l='ServerLevel[world]', x=240.27, y=66.00, z=499.61, cpos=[15, 31], tl=110159, v=true] died, message: 'Leatherworker was slain by Zombie'
-[01:59:09] [Async Chat Thread - #24/INFO]: [Not Secure] <HannaOwO1520> me sirve
-[01:59:17] [Async Chat Thread - #23/INFO]: [Not Secure] <HannaOwO1520> oki+
-[01:59:29] [Async Chat Thread - #25/INFO]: [Not Secure] <FoxyThePirate30> me perdi
-[01:59:59] [Async Chat Thread - #23/INFO]: [Not Secure] <HannaOwO1520> oki
-[02:00:02] [Server thread/INFO]: [PAN] focupepardo has made the advancement [The Cutest Predator]
-[02:00:07] [Server thread/WARN]: Boat (vehicle of HannaOwO1520) moved wrongly! 3.862165089561625
-[02:00:35] [Async Chat Thread - #25/INFO]: [Not Secure] <HannaOwO1520> se ve bonita
-[02:01:12] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Getting an Upgrade]
-[02:01:29] [Server thread/INFO]: [PAN] Prinstak has made the advancement [Suit Up]
-[02:01:58] [Server thread/INFO]: Villager EntityVillager['Villager'/190, uuid='8f33552b-2f6d-4ae6-9ecf-4db25f131002', l='ServerLevel[world]', x=274.70, y=61.05, z=552.67, cpos=[17, 34], tl=114120, v=true] died, message: 'Villager drowned'
-[02:02:14] [Server thread/WARN]: FoxyThePirate30 moved too quickly! -22.028513172824603,-2.078867993957516,-1.782705681460584
-[02:02:19] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Suit Up]
-[02:02:32] [Async Chat Thread - #26/INFO]: [Not Secure] <HannaOwO1520> parce los andes
-[02:02:36] [Server thread/INFO]: [PAN] JUANJO_MC was slain by Vex
-[02:02:37] [Server thread/INFO]: [PAN] focupepardo was slain by Vex
-[02:03:39] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Ice Bucket Challenge]
-[02:03:46] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Isn't It Iron Pick]
-[02:04:05] [Async Chat Thread - #28/INFO]: [Not Secure] <HannaOwO1520> 10/10
-[02:04:12] [Async Chat Thread - #29/INFO]: [Not Secure] <HannaOwO1520> tienes cara de que robas al cliente
-[02:04:56] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Stone Age]
-[02:05:16] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [Diamonds!]
-[02:05:22] [Async Chat Thread - #30/INFO]: [Not Secure] <Prinstak> Ban
-[02:05:29] [Async Chat Thread - #31/INFO]: [Not Secure] <JUANJO_MC> ban
-[02:05:34] [Async Chat Thread - #31/INFO]: [Not Secure] <focupepardo> ban
-[02:05:34] [Async Chat Thread - #30/INFO]: [Not Secure] <BekauseELF> uy
-[02:05:38] [Async Chat Thread - #31/INFO]: [Not Secure] <JUANJO_MC> ban
-[02:05:40] [Async Chat Thread - #30/INFO]: [Not Secure] <Nartic_MC> quienlo del inventario
-[02:05:40] [Async Chat Thread - #31/INFO]: [Not Secure] <JUANJO_MC> ban
-[02:05:49] [Async Chat Thread - #30/INFO]: [Not Secure] <focupepardo> clear
-[02:06:43] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=203, y=48, z=159}
-[02:07:37] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Ol' Betsy]
-[02:07:37] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Take Aim]
-[02:07:38] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Sneak 100]
-[02:07:46] [Server thread/INFO]: [PAN] Martinez250809_ has completed the challenge [It Spreads]
-[02:09:48] [Server thread/INFO]: JUANJO_MC issued server command: /minecraft:tell focupepardo oe
-[02:10:02] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Stone Age]
-[02:11:40] [Tuinity Chunk System Worker #0/ERROR]: Hanging entity at invalid position: BlockPosition{x=203, y=48, z=159}
-[02:13:04] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[02:13:19] [User Authenticator #14/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[02:13:19] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:40589] logged in with entity id 84586 at ([world]187.72525663176398, 69.0, 492.7996790367125)
-[02:13:20] [Craft Scheduler Thread - 342 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[02:13:23] [Server thread/INFO]: JUANJO_MC issued server command: /homelist
-[02:13:23] [Server thread/INFO]: focupepardo issued server command: /setspawn
-[02:13:35] [Server thread/INFO]: focupepardo issued server command: /homelist
-[02:13:40] [Server thread/INFO]: focupepardo issued server command: /tpa
-[02:13:40] [Server thread/INFO]: [Essentials] focupepardo was denied access to command.
-[02:13:54] [Async Chat Thread - #33/INFO]: [Not Secure] <JUANJO_MC> rolo
-[02:13:57] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Acquire Hardware]
-[02:13:58] [Async Chat Thread - #34/INFO]: [Not Secure] <BekauseELF> dime
-[02:13:58] [Async Chat Thread - #34/INFO]: [Not Secure] <JUANJO_MC> hat /spawn
-[02:14:04] [Async Chat Thread - #34/INFO]: [Not Secure] <JUANJO_MC> hay
-[02:14:11] [Server thread/INFO]: [PAN] HannaOwO1520 was slain by Spider
-[02:14:16] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
-[02:14:27] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Not Today, Thank You]
-[02:14:36] [Async Chat Thread - #33/INFO]: [Not Secure] <HannaOwO1520> Me emboscaron
-[02:15:16] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Isn't It Iron Pick]
-[02:15:29] [Async Chat Thread - #35/INFO]: [Not Secure] <BekauseELF> creo
-[02:15:35] [Server thread/INFO]: Nartic_MC issued server command: /helpop
-[02:15:35] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
-[02:15:42] [Server thread/INFO]: Villager EntityVillager['Villager'/191, uuid='b67f6ca8-8340-4200-aa30-1b6c165d414c', l='ServerLevel[world]', x=267.70, y=69.00, z=474.50, cpos=[16, 29], tl=130607, v=true] died, message: 'Villager was slain by Zombie'
-[02:15:52] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Light as a Rabbit]
-[02:16:09] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Monster Hunter]
-[02:16:54] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Not Today, Thank You]
-[02:18:05] [User Authenticator #15/INFO]: UUID of player cebodepesca is 3228ab84-15c7-3704-978e-6f9b8825e5e0
-[02:18:05] [Server thread/INFO]: cebodepesca[/127.39.117.181:45859] logged in with entity id 92905 at ([world]239.5, 66.0, 405.5)
-[02:18:06] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Ol' Betsy]
-[02:18:07] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Take Aim]
-[02:18:13] [Async Chat Thread - #37/INFO]: [Not Secure] <HannaOwO1520> yo te esoty robando comida
-[02:18:22] [Server thread/INFO]: [AuthMe] cebodepesca registered 127.39.117.181
-[02:18:22] [Craft Scheduler Thread - 358 - AuthMe/INFO]: [AuthMe] cebodepesca logged in 127.39.117.181
-[02:18:27] [Async Chat Thread - #36/INFO]: [Not Secure] <cebodepesca> baneenme
-[02:18:37] [Server thread/INFO]: BekauseELF issued server command: /ban cebodepesca
-[02:18:37] [Server thread/INFO]: cebodepesca lost connection: You have been banned:
-The Ban Hammer has spoken!
-[02:18:37] [Server thread/INFO]: [Essentials] Player BekauseELF banned cebodepesca for: You have been banned:
-The Ban Hammer has spoken!.
-[02:18:46] [User Authenticator #15/INFO]: UUID of player cebodepesca is 3228ab84-15c7-3704-978e-6f9b8825e5e0
-[02:18:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@45ec6987[id=3228ab84-15c7-3704-978e-6f9b8825e5e0,name=cebodepesca,properties={},legacy=false] (/127.39.117.181:43769): You are banned from this server. Reason: The Ban Hammer has spoken!
-[02:18:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@45ec6987[id=3228ab84-15c7-3704-978e-6f9b8825e5e0,name=cebodepesca,properties={},legacy=false] (/127.39.117.181:43769) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
-[02:20:00] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Suit Up]
-[02:20:15] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Suit Up]
-[02:21:07] [Server thread/WARN]: BekauseELF moved too quickly! 4.286263883759602,0.2468000194787976,10.126244534744615
-[02:21:07] [Server thread/WARN]: Prinstak moved too quickly! -6.449346905509628,-1.2491870787446828,-7.803682014015408
-[02:21:07] [Server thread/WARN]: Matinico1272 moved too quickly! 3.6262798505440514,-1.0244240882136921,9.44125517219004
-[02:21:17] [Async Chat Thread - #38/INFO]: [Not Secure] <Nartic_MC> el tridente esta permitido ya?
-[02:21:25] [Async Chat Thread - #39/INFO]: [Not Secure] <BekauseELF> no
-[02:21:31] [Async Chat Thread - #38/INFO]: [Not Secure] <Nartic_MC> hmmmm ok
-[02:21:51] [Async Chat Thread - #39/INFO]: [Not Secure] <Nartic_MC> puedo usarlo para logro
-[02:23:06] [Server thread/INFO]: BekauseELF issued server command: /sethome aldea 2
-[02:23:11] [Server thread/INFO]: BekauseELF issued server command: /sethome aldea2
-[02:23:32] [Server thread/WARN]: FoxyThePirate30 moved too quickly! -6.129899973721535,0.0,-12.436622626603253
-[02:24:03] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC
-[02:24:38] [User Authenticator #16/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
-[02:24:38] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:51589] logged in with entity id 101969 at ([world]698.9003385497766, 80.0, 1724.5559672028003)
-[02:24:38] [Craft Scheduler Thread - 385 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
-[02:25:12] [Async Chat Thread - #40/INFO]: [Not Secure] <HannaOwO1520> clausura de full hierro ?
-[02:25:33] [Async Chat Thread - #41/INFO]: [Not Secure] <HannaOwO1520> REGALAN COMIDA ?
-[02:25:37] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ Prinstak
-[02:25:44] [Server thread/INFO]: BekauseELF issued server command: /home aldea2
-[02:26:37] [Server thread/INFO]: [PAN] HannaOwO1520 was shot by Skeleton
-[02:26:40] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
-[02:26:57] [Server thread/INFO]: [PAN] focupepardo has made the advancement [Ice Bucket Challenge]
-[02:27:07] [Async Chat Thread - #42/INFO]: [Not Secure] <HannaOwO1520> tp
-[02:27:09] [Async Chat Thread - #43/INFO]: [Not Secure] <HannaOwO1520> pa ver
-[02:27:25] [Async Chat Thread - #42/INFO]: [Not Secure] <HannaOwO1520> sip
-[02:27:29] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[02:27:41] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520 BekauseELF
-[02:28:29] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO Matinico1272
-[02:29:05] [Server thread/INFO]: [PAN] JUANJO_MC was blown up by Creeper
-[02:29:05] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Monster Hunter]
-[02:29:05] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [Best Friends Forever]
-[02:29:14] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:back
-[02:29:41] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/141, uuid='70d9986d-5aee-4bf7-b6f4-8f3f7bf95e73', l='ServerLevel[world]', x=272.40, y=61.05, z=553.60, cpos=[17, 34], tl=147395, v=true] died, message: 'Leatherworker drowned'
-[02:29:57] [Server thread/INFO]: [PAN] FoxyThePirate30 fell from a high place
-[02:30:00] [Server thread/INFO]: FoxyThePirate30 issued server command: /huskhomes:back
-[02:30:04] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> tp
-[02:30:08] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Safe Haven]
-[02:30:23] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Diamonds!]
-[02:30:26] [Async Chat Thread - #45/INFO]: [Not Secure] <BekauseELF> LOl
-[02:30:29] [Async Chat Thread - #44/INFO]: [Not Secure] <AlejandraOwO> ban
-[02:30:30] [Async Chat Thread - #45/INFO]: [Not Secure] <HannaOwO1520> ban
-[02:30:32] [Async Chat Thread - #44/INFO]: [Not Secure] <Prinstak> Ban
-[02:30:33] [Async Chat Thread - #46/INFO]: [Not Secure] <BekauseELF> ban
-[02:30:35] [Async Chat Thread - #44/INFO]: [Not Secure] <Prinstak> Corrupto
-[02:30:40] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> abuso de poder
-[02:30:46] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[02:30:49] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> y a mi
-[02:31:00] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> bekause
-[02:31:01] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Ice Bucket Challenge]
-[02:31:02] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> tp
-[02:31:10] [Server thread/INFO]: Nartic_MC lost connection: Timed out
-[02:32:40] [Server thread/INFO]: [PAN] FoxyThePirate30 has made the advancement [Suit Up]
-[02:32:43] [Server thread/INFO]: BekauseELF issued server command: /home casa
-[02:32:54] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Safe Haven]
-[02:33:01] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Diamonds!]
-[02:33:04] [Server thread/INFO]: BekauseELF issued server command: /tp Matinico1272 BekauseELF
-[02:33:05] [Async Chat Thread - #47/INFO]: [Not Secure] <HannaOwO1520> ban
-[02:33:11] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Ol' Betsy]
-[02:34:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Ol' Betsy]
-[02:34:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Take Aim]
-[02:34:38] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[02:34:38] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[02:34:39] [User Authenticator #17/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[02:34:39] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:56007] logged in with entity id 112424 at ([world]-14.174405002071365, 175.0, 544.6394167481587)
-[02:34:39] [Craft Scheduler Thread - 421 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[02:34:42] [Server thread/INFO]: [PAN] Prinstak has made the advancement [A Seedy Place]
-[02:34:44] [Server thread/INFO]: [PAN] Martinez250809_ has made the advancement [A Seedy Place]
-[02:34:55] [Server thread/INFO]: FoxyThePirate30 lost connection: Disconnected
-[02:35:01] [User Authenticator #17/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[02:35:01] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:44697] logged in with entity id 112702 at ([world]-14.174405002071365, 175.0, 544.6394167481587)
-[02:35:01] [Craft Scheduler Thread - 420 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[02:35:09] [Server thread/INFO]: [PAN] Matinico1272 was blown up by Creeper
-[02:35:15] [Server thread/INFO]: Matinico1272 issued server command: /huskhomes:back
-[02:35:19] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ BekauseELF
-[02:35:27] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ Prinstak
-[02:35:31] [Server thread/INFO]: BekauseELF issued server command: /tp Matinico1272 BekauseELF
-[02:35:55] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Sweet Dreams]
-[02:37:07] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Sweet Dreams]
-[02:37:52] [Server thread/INFO]: BekauseELF issued server command: /time set day
-[02:38:23] [Async Chat Thread - #49/INFO]: [Not Secure] <HannaOwO1520> tengo 2 plumas
-[02:38:28] [Async Chat Thread - #50/INFO]: [Not Secure] <FoxyThePirate30> D A M E
-[02:38:35] [Async Chat Thread - #49/INFO]: [Not Secure] <HannaOwO1520> ven
-[02:38:43] [Async Chat Thread - #50/INFO]: [Not Secure] <HannaOwO1520> por ellas dile a bekause que te haga tp
-[02:38:52] [Async Chat Thread - #49/INFO]: [Not Secure] <FoxyThePirate30> mi alma esta encadenada a este lugar
-[02:38:52] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ BekauseELF
-[02:38:58] [Async Chat Thread - #49/INFO]: [Not Secure] <FoxyThePirate30> no me puedo ir
-[02:39:33] [Server thread/INFO]: Villager EntityVillager['Nitwit'/217, uuid='429398f2-152d-436a-8dea-9d62ff3e62bc', l='ServerLevel[world]', x=274.56, y=61.05, z=551.44, cpos=[17, 34], tl=159223, v=true] died, message: 'Nitwit drowned'
-[02:39:59] [Server thread/INFO]: [PAN] HannaOwO1520 fell from a high place
-[02:40:02] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
-[02:41:23] [Server thread/INFO]: [PAN] HannaOwO1520 has made the advancement [Diamonds!]
-[02:41:26] [Async Chat Thread - #51/INFO]: [Not Secure] <BekauseELF> uy
-[02:41:33] [Async Chat Thread - #52/INFO]: [Not Secure] <BekauseELF> ban
-[02:41:35] [Async Chat Thread - #51/INFO]: [Not Secure] <Martinez250809_> BAN
-[02:41:39] [Async Chat Thread - #53/INFO]: [Not Secure] <focupepardo> ban
-[02:41:46] [Async Chat Thread - #51/INFO]: [Not Secure] <JUANJO_MC> ban
-[02:42:36] [Server thread/INFO]: HannaOwO1520 lost connection: Timed out
-[02:43:48] [User Authenticator #18/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
-[02:43:48] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:55677] logged in with entity id 119621 at ([world]1604.4570548330066, -48.0, 865.5161479961789)
-[02:43:48] [Craft Scheduler Thread - 456 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
-[02:44:13] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> voy a vivir ahi
-[02:44:23] [Async Chat Thread - #55/INFO]: [Not Secure] <HannaOwO1520> pera
-[02:44:31] [Server thread/INFO]: BekauseELF issued server command: /sethome casaH
-[02:44:50] [Server thread/WARN]: FoxyThePirate30 moved too quickly! -6.1754667136030665,4.878703159460798,6.198485813032107
-[02:44:50] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> para bañarme
-[02:44:59] [Async Chat Thread - #55/INFO]: [Not Secure] <HannaOwO1520> no
-[02:45:31] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[02:45:35] [Server thread/INFO]: focupepardo lost connection: Disconnected
-[02:45:37] [Async Chat Thread - #54/INFO]: [Not Secure] <HannaOwO1520> no puedo usar los diamantes cierto
-[02:45:42] [Async Chat Thread - #55/INFO]: [Not Secure] <Prinstak> No
-[02:45:53] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [A Seedy Place]
-[02:45:55] [Server thread/INFO]: [PAN] AlejandraOwO has made the advancement [Take Aim]
-[02:46:00] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [Take Aim]
-[02:46:57] [Server thread/INFO]: Villager EntityVillager['Villager'/197, uuid='7ea93776-ba58-47f4-beb4-ca89e64bdbd5', l='ServerLevel[world]', x=274.53, y=61.05, z=551.47, cpos=[17, 34], tl=168101, v=true] died, message: 'Villager drowned'
-[02:47:38] [Server thread/INFO]: [PAN] Prinstak withered away
-[02:47:44] [Server thread/INFO]: BekauseELF issued server command: /tp Prinstak BekauseELF
-[02:47:56] [Async Chat Thread - #57/INFO]: [Not Secure] <JUANJO_MC> invocaron al wither?
-[02:47:59] [Async Chat Thread - #56/INFO]: [Not Secure] <AlejandraOwO> si
-[02:48:00] [Async Chat Thread - #57/INFO]: [Not Secure] <BekauseELF> no
-[02:48:06] [Async Chat Thread - #57/INFO]: [Not Secure] <FoxyThePirate30> si
-[02:48:07] [Async Chat Thread - #56/INFO]: [Not Secure] <FoxyThePirate30> corre
-[02:48:14] [Async Chat Thread - #57/INFO]: [Not Secure] <BekauseELF> es un efecto
-[02:48:15] [Async Chat Thread - #56/INFO]: [Not Secure] <HannaOwO1520> tp
-[02:48:18] [Async Chat Thread - #56/INFO]: [Not Secure] <HannaOwO1520> beka
-[02:48:33] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520 BekauseELF
-[02:48:35] [Async Chat Thread - #57/INFO]: [Not Secure] <JUANJO_MC> rolo hast que horas esta abierto y a que horas se abre?
-[02:48:44] [Async Chat Thread - #56/INFO]: [Not Secure] <HannaOwO1520> beka
-[02:48:57] [Async Chat Thread - #57/INFO]: [Not Secure] <HannaOwO1520> donde esta los cerezos
-[02:49:04] [Async Chat Thread - #56/INFO]: [Not Secure] <HannaOwO1520> combina con mi skin
-[02:50:38] [Async Chat Thread - #58/INFO]: [Not Secure] <HannaOwO1520> shi
-[02:52:02] [Async Chat Thread - #60/INFO]: [Not Secure] <HannaOwO1520> 0
-[02:52:07] [Async Chat Thread - #61/INFO]: [Not Secure] <HannaOwO1520> borrenlo
-[02:54:00] [Async Chat Thread - #62/INFO]: [Not Secure] <JUANJO_MC> duerman
-[02:54:05] [Async Chat Thread - #62/INFO]: [Not Secure] <Prinstak> Cállese
-[02:54:09] [Async Chat Thread - #63/INFO]: [Not Secure] <HannaOwO1520> duerman pero el server
-[02:54:16] [Async Chat Thread - #62/INFO]: [Not Secure] <JUANJO_MC> real
-[02:54:19] [Server thread/INFO]: BekauseELF issued server command: /home casa
-[02:54:24] [Async Chat Thread - #63/INFO]: [Not Secure] <AlejandraOwO> fr
-[02:55:28] [Server thread/INFO]: HannaOwO1520 lost connection: Disconnected
-[02:55:41] [User Authenticator #19/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[02:55:41] [Server thread/INFO]: Nartic_MC[/127.151.2.191:55553] logged in with entity id 130277 at ([world]934.8452423749627, 67.0, 1684.2342697296763)
-[02:55:41] [Craft Scheduler Thread - 503 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[02:58:00] [Server thread/INFO]: Martinez250809_ lost connection: Disconnected
-[02:58:06] [Async Chat Thread - #64/INFO]: [Not Secure] <Nartic_MC> como van
-[02:58:11] [Async Chat Thread - #64/INFO]: [Not Secure] <FoxyThePirate30> mudanza
-[02:58:12] [Async Chat Thread - #65/INFO]: [Not Secure] <Prinstak> Cállese
-[02:58:14] [Async Chat Thread - #64/INFO]: [Not Secure] <AlejandraOwO> melos
-[02:58:14] [Async Chat Thread - #65/INFO]: [Not Secure] <BekauseELF> en los termales
-[02:58:38] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
-[02:59:44] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
-[03:00:06] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO BekauseELF
-[03:00:43] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Ice Bucket Challenge]
-[03:01:02] [Server thread/INFO]: Nartic_MC issued server command: /setspawn
-[03:01:05] [Server thread/INFO]: [PAN] Matinico1272 hit the ground too hard
-[03:02:05] [Server thread/INFO]: BekauseELF issued server command: /essentials:homes AlejandraOwO:
-[03:03:44] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO
-[03:03:53] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Safe Haven]
-[03:04:20] [Server thread/INFO]: BekauseELF issued server command: /essentials:sethome
-[03:05:04] [User Authenticator #20/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
-[03:05:04] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:57081] logged in with entity id 140381 at ([world]39.75517738980274, 98.0, 1097.9506358049778)
-[03:05:04] [Craft Scheduler Thread - 541 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
-[03:05:19] [Server thread/INFO]: BekauseELF issued server command: /tp Prinstak
-[03:05:29] [Server thread/INFO]: Villager EntityVillager['Villager'/259, uuid='3ffe638e-0bcd-40b8-8874-19e0b856cb09', l='ServerLevel[world]', x=274.53, y=61.05, z=551.47, cpos=[17, 34], tl=189507, v=true] died, message: 'Villager drowned'
-[03:06:34] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[03:06:34] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[03:06:35] [User Authenticator #21/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[03:06:35] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:41505] logged in with entity id 142039 at ([world]218.0003546692392, 68.44594350723132, 967.0852242222495)
-[03:06:36] [Craft Scheduler Thread - 547 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[03:07:12] [Server thread/INFO]: [PAN] JUANJO_MC has made the advancement [Call For Adventure]
-[03:07:34] [Server thread/INFO]: Nartic_MC issued server command: /seed
-[03:08:32] [Async Chat Thread - #66/INFO]: [Not Secure] <HannaOwO1520> que misiones ?
-[03:08:34] [Async Chat Thread - #67/INFO]: [Not Secure] <AlejandraOwO> 698 77 1726
-[03:08:35] [User Authenticator #22/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
-[03:08:35] [Server thread/INFO]: Martinez250809_[/127.98.196.114:55071] logged in with entity id 144126 at ([world]293.8338538398511, 67.0, 634.4084084644609)
-[03:08:35] [Craft Scheduler Thread - 553 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
-[03:09:04] [Async Chat Thread - #66/INFO]: [Not Secure] <HannaOwO1520> robatela
-[03:10:08] [Async Chat Thread - #68/INFO]: [Not Secure] <HannaOwO1520> leche valeriana
-[03:10:45] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO 698 77 1726
-[03:11:08] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO FoxyThePirate30
-[03:12:35] [Server thread/INFO]: Nartic_MC issued server command: /w al
-[03:12:35] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
-[03:13:41] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [The Parrots and the Bats]
-[03:15:20] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
-[03:15:30] [Server thread/INFO]: Villager EntityVillager['Villager'/232, uuid='2237c70f-ff62-4fee-bb5e-df7b291e757c', l='ServerLevel[world]', x=294.29, y=69.00, z=474.47, cpos=[18, 29], tl=202360, v=true] died, message: 'Villager was slain by Zombie'
-[03:16:20] [Async Chat Thread - #70/INFO]: [Not Secure] <HannaOwO1520> voy hacer mi casita UwU
-[03:16:39] [Server thread/INFO]: JUANJO_MC issued server command: /minecraft:tell Nartic_MC que haces bro
-[03:17:03] [User Authenticator #23/INFO]: UUID of player youngsuktrap is ac0ad1ca-0fe5-3012-b462-1fb33e027f85
-[03:17:03] [Server thread/INFO]: youngsuktrap[/127.225.213.229:52129] logged in with entity id 154925 at ([world]230.5, 67.0, 414.5)
-[03:17:16] [Server thread/INFO]: BekauseELF issued server command: /tp youngsuktrap
-[03:17:56] [Server thread/INFO]: [AuthMe] youngsuktrap registered 127.225.213.229
-[03:17:56] [Craft Scheduler Thread - 589 - AuthMe/INFO]: [AuthMe] youngsuktrap logged in 127.225.213.229
-[03:18:15] [Async Chat Thread - #72/INFO]: [Not Secure] <FoxyThePirate30> Gomita
-[03:18:20] [Async Chat Thread - #74/INFO]: [Not Secure] <FoxyThePirate30> Tienes mechero??????
-[03:19:08] [Server thread/INFO]: Nartic_MC lost connection: Disconnected
-[03:19:43] [Server thread/INFO]: BekauseELF issued server command: /tp Matinico1272 AlejandraOwO
-[03:20:22] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:home base
-[03:21:20] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:sethome base
-[03:21:41] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:home base
-[03:22:22] [Server thread/INFO]: BekauseELF issued server command: /tp JUANJO_MC BekauseELF
-[03:23:26] [Server thread/INFO]: youngsuktrap lost connection: Disconnected
-[03:26:12] [Server thread/INFO]: [PAN] HannaOwO1520 fell from a high place
-[03:26:16] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
-[03:26:21] [Server thread/INFO]: HannaOwO1520 issued server command: /huskhomes:back
-[03:27:32] [User Authenticator #24/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
-[03:27:32] [Server thread/INFO]: Nartic_MC[/127.151.2.191:42191] logged in with entity id 162758 at ([world]1161.512499988079, 63.0, 1412.475555275635)
-[03:27:32] [Craft Scheduler Thread - 625 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
-[03:27:34] [Server thread/INFO]: [PAN] Matinico1272 has made the advancement [The Parrots and the Bats]
-[03:27:53] [Server thread/WARN]: FoxyThePirate30 was kicked due to keepalive timeout!
-[03:27:53] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
-[03:28:08] [User Authenticator #24/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[03:28:08] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:34051] logged in with entity id 163402 at ([world]112.46207195149643, 62.14271963604896, 619.233114787425)
-[03:28:08] [Craft Scheduler Thread - 624 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[03:28:42] [Server thread/INFO]: Matinico1272 lost connection: Disconnected
-[03:29:16] [Server thread/INFO]: Martinez250809_ issued server command: /kits
-[03:29:16] [Server thread/INFO]: [Essentials] Martinez250809_ was denied access to command.
-[03:29:38] [Async Chat Thread - #75/INFO]: [Not Secure] <HannaOwO1520> no se puede usar diamantes cierto
-[03:29:41] [User Authenticator #25/INFO]: UUID of player Pablo14666 is 3c77d3d3-ecba-3bed-b2fe-600e384812a6
-[03:29:41] [Server thread/INFO]: Pablo14666[/127.225.213.229:57051] logged in with entity id 164893 at ([world]231.5, 66.0, 418.5)
-[03:29:42] [Async Chat Thread - #75/INFO]: [Not Secure] <BekauseELF> no
-[03:29:44] [Async Chat Thread - #76/INFO]: [Not Secure] <Prinstak> Que no hermano
-[03:29:48] [Async Chat Thread - #75/INFO]: [Not Secure] <HannaOwO1520> :(
-[03:30:22] [Server thread/INFO]: [AuthMe] Pablo14666 registered 127.225.213.229
-[03:30:22] [Craft Scheduler Thread - 635 - AuthMe/INFO]: [AuthMe] Pablo14666 logged in 127.225.213.229
-[03:30:29] [Async Chat Thread - #76/INFO]: [Not Secure] <JUANJO_MC> pvp
-[03:30:32] [Async Chat Thread - #75/INFO]: [Not Secure] <Prinstak> No
-[03:30:42] [Async Chat Thread - #76/INFO]: [Not Secure] <HannaOwO1520> vale
-[03:30:46] [Async Chat Thread - #75/INFO]: [Not Secure] <HannaOwO1520> ven
-[03:30:47] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520
-[03:31:00] [Async Chat Thread - #76/INFO]: [Not Secure] <HannaOwO1520> tienes hierro
-[03:31:16] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC
-[03:31:25] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO
-[03:31:39] [Async Chat Thread - #75/INFO]: [Not Secure] <FoxyThePirate30> Chicken Jockey
-[03:32:30] [Server thread/INFO]: BekauseELF issued server command: /kick FoxyThePirate30 piromano
-[03:32:30] [Server thread/INFO]: FoxyThePirate30 lost connection: piromano
-[03:32:30] [Server thread/INFO]: [Essentials] Player BekauseELF kicked FoxyThePirate30 for piromano.
-[03:32:42] [User Authenticator #26/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[03:32:42] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:38851] logged in with entity id 168082 at ([world]199.23365227252592, 72.0, 713.4058095414396)
-[03:32:42] [Craft Scheduler Thread - 643 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[03:34:06] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
-[03:34:20] [Server thread/INFO]: Pablo14666 has made the advancement [Stone Age]
-[03:34:34] [Server thread/INFO]: Pablo14666 has made the advancement [Monster Hunter]
-[03:34:40] [Server thread/INFO]: Pablo14666 has made the advancement [Getting an Upgrade]
-[03:36:50] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520
-[03:37:02] [Server thread/INFO]: [PAN] JUANJO_MC was slain by [PAN] Martinez250809_
-[03:37:23] [Async Chat Thread - #77/INFO]: [Not Secure] <HannaOwO1520> arreglas eso
-[03:38:05] [Server thread/INFO]: Pablo14666 was blown up by Creeper
-[03:38:15] [Server thread/WARN]: FoxyThePirate30 was kicked for floating too long!
-[03:38:15] [Server thread/INFO]: FoxyThePirate30 lost connection: Flying is not enabled on this server
-[03:38:28] [User Authenticator #27/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
-[03:38:28] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:58549] logged in with entity id 174307 at ([world]230.95950105743862, 67.0, 971.9615800455643)
-[03:38:28] [Craft Scheduler Thread - 662 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
-[03:38:41] [Server thread/INFO]: BekauseELF issued server command: /tp JUANJO_MC BekauseELF
-[03:39:33] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_
-[03:39:47] [Async Chat Thread - #79/INFO]: [Not Secure] <HannaOwO1520> Tp
-[03:39:51] [Async Chat Thread - #79/INFO]: [Not Secure] <FoxyThePirate30> tp
+[03:41:24] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[03:41:24] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[03:41:24] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03:41:24] [Server thread/INFO]: [AuthMe] Checking for updates...
+[03:41:24] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.3
+[03:41:24] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.3) by ThizThizzyDizzy
+[03:41:24] [Server thread/INFO]: [TreeFeller] Server version: 1.20.1-R0.1-SNAPSHOT
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Grass: [GRASS_BLOCK, PODZOL, DIRT]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Overridables: [AIR, LARGE_FERN, CAVE_AIR, SEAGRASS, TALL_GRASS, GRASS, FERN, WATER, TALL_SEAGRASS]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {ACACIA_WOOD=ACACIA_LOG, JUNGLE_WOOD=JUNGLE_LOG, WARPED_HYPHAE=WARPED_STEM, OAK_WOOD=OAK_LOG, BIRCH_WOOD=BIRCH_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, SPRUCE_WOOD=SPRUCE_LOG}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Effects: []
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[03:41:24] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
+[03:41:24] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[03:41:24] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[03:41:24] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[03:41:24] [Server thread/INFO]: Running delayed init tasks
+[03:41:24] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:41:25] [Server thread/INFO]: Done (12.367s)! For help, type "help"
+[03:41:25] [Server thread/INFO]: Timings Reset
+[03:41:25] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] You are running the latest version.
+[03:41:25] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.0.
+[03:41:25] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[03:41:27] [Craft Scheduler Thread - 0 - CustomNPCs/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:41:27] [User Authenticator #0/INFO]: UUID of player Prinstak is cd9beb2e-27a9-360d-9d09-27a9699e6b3d
+[03:41:27] [Server thread/INFO]: Prinstak[/127.93.88.95:35127] logged in with entity id 326 at ([world]278.30000001192093, 67.0, 629.8165735055995)
+[03:41:27] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] Prinstak logged in 127.93.88.95
+[03:41:31] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[03:41:32] [User Authenticator #0/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
+[03:41:32] [Server thread/INFO]: BekauseELF[/127.138.209.14:58697] logged in with entity id 561 at ([world]345.30000001192093, 63.0, 632.6870519084414)
+[03:41:32] [User Authenticator #1/INFO]: UUID of player Pablo14666 is 3c77d3d3-ecba-3bed-b2fe-600e384812a6
+[03:41:32] [Server thread/INFO]: Pablo14666[/127.225.213.229:51727] logged in with entity id 562 at ([world]-23.599786971286456, 72.0, 408.30000001192093)
+[03:41:32] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
+[03:41:32] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Pablo14666 logged in 127.225.213.229
+[03:41:39] [User Authenticator #1/INFO]: UUID of player JUANJO_MC is 7e67f95e-2350-37f8-aaa1-39c73596de7b
+[03:41:39] [Server thread/INFO]: JUANJO_MC[/127.51.240.48:47139] logged in with entity id 824 at ([world]187.25922284934506, 70.15312379606114, 921.8715922298876)
+[03:41:39] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] JUANJO_MC logged in 127.51.240.48
+[03:41:40] [User Authenticator #0/INFO]: UUID of player Nartic_MC is 240422c1-2ff5-3a4d-8a80-cb7b90592d69
+[03:41:40] [Server thread/INFO]: Nartic_MC[/127.151.2.191:36173] logged in with entity id 898 at ([world]1074.8948139218114, 63.72129153547922, 1588.8538786588801)
+[03:41:40] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] Nartic_MC logged in 127.151.2.191
+[03:41:43] [User Authenticator #0/INFO]: UUID of player AlejandraOwO is 9c2a095c-3fb7-38f4-8344-1945dad22c33
+[03:41:43] [Server thread/INFO]: AlejandraOwO[/127.207.145.7:57523] logged in with entity id 1206 at ([world]280.69842527208897, 67.0, 628.5630545628353)
+[03:41:43] [Craft Scheduler Thread - 0 - AuthMe/INFO]: [AuthMe] AlejandraOwO logged in 127.207.145.7
+[03:41:47] [User Authenticator #0/INFO]: UUID of player FoxyThePirate30 is 86ea816a-c54e-3f07-b4e4-6c2efc0c5e45
+[03:41:47] [Server thread/INFO]: FoxyThePirate30[/127.48.24.227:58153] logged in with entity id 1306 at ([world]176.88824859863973, 72.0, 915.0482747336894)
+[03:41:47] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] FoxyThePirate30 logged in 127.48.24.227
+[03:41:55] [Server thread/INFO]: BekauseELF issued server command: /team join PAN Pablo14666
+[03:41:55] [Server thread/INFO]: [[BAGUETTE] BekauseELF[CRACK] : Added Pablo14666 to team [PAN]]
+[03:42:00] [Server thread/INFO]: Nartic_MC issued server command: /homelist
+[03:42:03] [User Authenticator #0/INFO]: UUID of player HannaOwO1520 is 18a0c52b-0c4e-3208-affb-3d4f11832cad
+[03:42:03] [Server thread/INFO]: HannaOwO1520[/127.37.7.57:44755] logged in with entity id 1410 at ([world]37.90324206421985, 98.0, 1114.111005636703)
+[03:42:03] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] HannaOwO1520 logged in 127.37.7.57
+[03:42:05] [Server thread/INFO]: Nartic_MC issued server command: /sethome
+[03:42:05] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
+[03:42:06] [Async Chat Thread - #1/INFO]: [Not Secure] <HannaOwO1520> tp
+[03:42:07] [Server thread/INFO]: Nartic_MC issued server command: /home
+[03:42:07] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
+[03:42:19] [Server thread/INFO]: BekauseELF issued server command: /tp FoxyThePirate30 BekauseELF
+[03:42:23] [Server thread/INFO]: JUANJO_MC issued server command: /spawn
+[03:42:34] [Server thread/INFO]: BekauseELF issued server command: /tpaall BekauseELF
+[03:42:41] [Server thread/INFO]: Nartic_MC issued server command: /tpaccept
+[03:42:41] [Server thread/INFO]: [Essentials] Nartic_MC was denied access to command.
+[03:42:43] [Server thread/INFO]: Prinstak issued server command: /tpaccept
+[03:42:43] [Server thread/INFO]: [Essentials] Prinstak was denied access to command.
+[03:42:45] [Server thread/INFO]: Pablo14666 issued server command: /tpaccept
+[03:42:45] [Server thread/INFO]: [Essentials] Pablo14666 was denied access to command.
+[03:42:50] [User Authenticator #0/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
+[03:42:50] [Server thread/INFO]: Martinez250809_[/127.98.196.114:58273] logged in with entity id 2250 at ([world]278.92075819173164, 67.0, 630.3988690581496)
+[03:42:50] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
+[03:42:51] [Server thread/INFO]: Prinstak issued server command: /tpaccept
+[03:42:51] [Server thread/INFO]: [Essentials] Prinstak was denied access to command.
+[03:42:55] [Server thread/INFO]: Prinstak issued server command: /tpaccept
+[03:42:55] [Server thread/INFO]: [Essentials] Prinstak was denied access to command.
+[03:43:04] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC BekauseELF
+[03:43:14] [Async Chat Thread - #2/INFO]: [Not Secure] <JUANJO_MC> rolo tp
+[03:43:18] [Server thread/INFO]: HannaOwO1520 issued server command: /tpaccept
+[03:43:18] [Server thread/INFO]: [Essentials] HannaOwO1520 was denied access to command.
+[03:43:19] [Server thread/INFO]: BekauseELF issued server command: /tp JUANJO_MC BekauseELF
+[03:43:23] [Async Chat Thread - #3/INFO]: [Not Secure] <HannaOwO1520> Bekause
+[03:43:26] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520 BekauseELF
+[03:43:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Martinez250809_> foto
+[03:43:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Martinez250809_> foto
+[03:43:29] [Async Chat Thread - #3/INFO]: [Not Secure] <HannaOwO1520> no puedo usar tpa
+[03:43:45] [Server thread/INFO]: BekauseELF issued server command: /tp Pablo14666 BekauseELF
+[03:45:39] [Server thread/WARN]: Player FoxyThePirate30 just tried to change non-editable sign
+[03:47:26] [Async Chat Thread - #4/INFO]: [Not Secure] <HannaOwO1520> bueno bye
+[03:47:40] [Async Chat Thread - #5/INFO]: [Not Secure] <HannaOwO1520> tp a mi house
+[03:47:44] [Async Chat Thread - #4/INFO]: [Not Secure] <HannaOwO1520> por fa
+[03:48:03] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [What a Deal!]
+[03:48:03] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Into Fire]
+[03:48:29] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC BekauseELF
+[03:48:43] [Server thread/INFO]: [PAN] FoxyThePirate30 was slain by [PAN] JUANJO_MC
+[03:49:03] [Async Chat Thread - #6/INFO]: [Not Secure] <HannaOwO1520> Lopera
+[03:49:07] [Async Chat Thread - #7/INFO]: [Not Secure] <HannaOwO1520> donde esta tu casa
+[03:49:09] [Server thread/INFO]: FoxyThePirate30 lost connection: Timed out
+[03:49:09] [Async Chat Thread - #6/INFO]: [Not Secure] <AlejandraOwO> aca
+[03:49:18] [Async Chat Thread - #7/INFO]: [Not Secure] <HannaOwO1520> Beka me puedes hacer tp
+[03:50:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Martinez250809_> hay cadavid
+[03:50:13] [Async Chat Thread - #7/INFO]: [Not Secure] <Martinez250809_> mas duro
+[03:51:37] [Server thread/INFO]: Prinstak lost connection: Disconnected
+[03:52:25] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC Martinez250809_
+[03:52:38] [Server thread/INFO]: BekauseELF issued server command: /tp HannaOwO1520
+[03:53:12] [Async Chat Thread - #8/INFO]: [Not Secure] <HannaOwO1520> ok
+[03:53:44] [Server thread/INFO]: BekauseELF issued server command: /tp JUANJO_MC Nartic_MC
+[03:53:45] [Async Chat Thread - #9/INFO]: [Not Secure] <HannaOwO1520> arreglas esto
+[03:53:49] [Server thread/INFO]: BekauseELF issued server command: /tp JUANJO_MC BekauseELF
+[03:54:55] [Server thread/INFO]: [PAN] Nartic_MC has made the advancement [Not Today, Thank You]
+[03:55:20] [Server thread/INFO]: Villager EntityVillager['Villager'/100, uuid='4e09b5f8-fd22-45bf-ac30-14bf98dd5b0e', l='ServerLevel[world]', x=237.75, y=67.00, z=453.44, cpos=[14, 28], tl=248597, v=true] died, message: 'Villager was slain by Zombie'
+[03:57:13] [Server thread/INFO]: [PAN] Pablo14666 has made the advancement [Acquire Hardware]
+[03:57:28] [Server thread/INFO]: [PAN] Pablo14666 has made the advancement [Isn't It Iron Pick]
+[03:57:31] [Server thread/INFO]: JUANJO_MC issued server command: /huskhomes:home base
+[03:58:07] [Async Chat Thread - #10/INFO]: [Not Secure] <HannaOwO1520> beka tu casa anterior tenia moss block no ?
+[03:59:03] [Server thread/INFO]: JUANJO_MC lost connection: Disconnected
+[04:01:07] [Server thread/INFO]: [PAN] Pablo14666 has made the advancement [Suit Up]
+[04:04:08] [Server thread/INFO]: BekauseELF issued server command: /tp Martinez250809_ BekauseELF
+[04:04:48] [Server thread/INFO]: BekauseELF issued server command: /weather sun
+[04:08:03] [Server thread/INFO]: BekauseELF issued server command: /team modify PAN suffix {"text":"[Tusi] ","color":"blue","bold":true}
+[04:10:26] [Async Chat Thread - #12/INFO]: [Not Secure] <HannaOwO1520> PANDEATH DIA 400
+[04:13:30] [Async Chat Thread - #14/INFO]: [Not Secure] <HannaOwO1520> alguien tiene andesita ?
+[04:13:37] [Async Chat Thread - #15/INFO]: [Not Secure] <BekauseELF> nop
+[04:13:42] [Async Chat Thread - #14/INFO]: [Not Secure] <AlejandraOwO> tengo 11
+[04:13:43] [Async Chat Thread - #15/INFO]: [Not Secure] <Nartic_MC> yo
+[04:13:44] [Async Chat Thread - #14/INFO]: [Not Secure] <AlejandraOwO> y una mna
+[04:13:46] [Async Chat Thread - #15/INFO]: [Not Secure] <AlejandraOwO> mina
+[04:13:46] [Async Chat Thread - #14/INFO]: [Not Secure] <Nartic_MC> notengo
+[04:13:47] [Async Chat Thread - #15/INFO]: [Not Secure] <AlejandraOwO> de andesita
+[04:15:44] [Async Chat Thread - #16/INFO]: [Not Secure] <HannaOwO1520> no era andesita era diorita mala mia
+[04:15:47] [Async Chat Thread - #17/INFO]: [Not Secure] <HannaOwO1520> tienes lopera ?
+[04:15:53] [Async Chat Thread - #17/INFO]: [Not Secure] <AlejandraOwO> zi
+[04:16:05] [Async Chat Thread - #16/INFO]: [Not Secure] <HannaOwO1520> ontas ?
+[04:16:08] [Async Chat Thread - #17/INFO]: [Not Secure] <AlejandraOwO> aca
+[04:16:13] [Async Chat Thread - #17/INFO]: [Not Secure] <HannaOwO1520> cords
+[04:16:24] [Async Chat Thread - #16/INFO]: [Not Secure] <AlejandraOwO> [x:191, y:63, z:1112, dim:minecraft:overworld]
+[04:16:33] [Async Chat Thread - #16/INFO]: [Not Secure] <HannaOwO1520> ya voy
+[04:16:58] [Async Chat Thread - #17/INFO]: [Not Secure] <HannaOwO1520> netherite sin ir al nether ?
+[04:19:15] [Server thread/INFO]: Martinez250809_ lost connection: Disconnected
+[04:19:41] [Async Chat Thread - #18/INFO]: [Not Secure] <HannaOwO1520> LA END UPDATE SE ACERCA
+[04:19:55] [Async Chat Thread - #19/INFO]: [Not Secure] <HannaOwO1520> lopera
+[04:20:01] [Async Chat Thread - #18/INFO]: [Not Secure] <HannaOwO1520> estoy en las cord
+[04:20:32] [Server thread/INFO]: BekauseELF issued server command: /tp Pablo14666 AlejandraOwO
+[04:21:50] [Async Chat Thread - #20/INFO]: [Not Secure] <HannaOwO1520> no veo ninguna hp mina
+[04:22:42] [User Authenticator #2/INFO]: UUID of player Martinez250809_ is dc2b73e1-5b38-325e-9f64-e16c00fb67ec
+[04:22:42] [Server thread/INFO]: Martinez250809_[/127.98.196.114:44859] logged in with entity id 43196 at ([world]278.1249077394429, 64.0, 608.4920040211531)
+[04:22:42] [Craft Scheduler Thread - 163 - AuthMe/INFO]: [AuthMe] Martinez250809_ logged in 127.98.196.114
+[04:24:03] [Server thread/INFO]: [PAN] Pablo14666[Tusi]  has made the advancement [Diamonds!]
+[04:24:25] [Server thread/INFO]: BekauseELF lost connection: Disconnected
+[04:25:35] [Async Chat Thread - #22/INFO]: [Not Secure] <HannaOwO1520> LOPERA ME MENTISTE
+[04:28:00] [Async Chat Thread - #24/INFO]: [Not Secure] <HannaOwO1520> parce encontrar diorita es como conseguir un shiny
+[04:28:08] [Async Chat Thread - #24/INFO]: [Not Secure] <HannaOwO1520> no parce
+[04:29:04] [Server thread/INFO]: Pablo14666 lost connection: Disconnected
+[04:29:47] [Async Chat Thread - #26/INFO]: [Not Secure] <HannaOwO1520> rololandia
+[04:30:34] [Server thread/INFO]: Martinez250809_ lost connection: Disconnected
+[04:31:35] [Async Chat Thread - #28/INFO]: [Not Secure] <HannaOwO1520> en una mina
+[04:34:01] [User Authenticator #3/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
+[04:34:01] [Server thread/INFO]: BekauseELF[/127.138.209.14:54915] logged in with entity id 48618 at ([world]337.21719154551323, 92.0, 1039.8752589650276)
+[04:34:01] [Craft Scheduler Thread - 207 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
+[04:34:12] [Async Chat Thread - #30/INFO]: [Not Secure] <BekauseELF> im back
+[04:34:14] [Async Chat Thread - #30/INFO]: [Not Secure] <HannaOwO1520> mano lopera
+[04:34:19] [Async Chat Thread - #31/INFO]: [Not Secure] <HannaOwO1520> dame la diorita y ya
+[04:34:38] [Async Chat Thread - #30/INFO]: [Not Secure] <HannaOwO1520> mas que suficiente
+[04:34:46] [Async Chat Thread - #31/INFO]: [Not Secure] <HannaOwO1520> si
+[04:34:59] [Async Chat Thread - #30/INFO]: [Not Secure] <HannaOwO1520> que otro material blanco se pueden hacer paredes
+[04:35:10] [Async Chat Thread - #31/INFO]: [Not Secure] <HannaOwO1520> no la calcita
+[04:35:26] [Async Chat Thread - #30/INFO]: [Not Secure] <HannaOwO1520> no sirve para hacer walls
+[04:35:36] [Server thread/INFO]: BekauseELF lost connection: Disconnected
+[04:36:45] [Async Chat Thread - #32/INFO]: [Not Secure] <HannaOwO1520> beka tu no tienes diorita
+[04:36:48] [Async Chat Thread - #33/INFO]: [Not Secure] <HannaOwO1520> a se fue
+[04:37:25] [Async Chat Thread - #32/INFO]: [Not Secure] <HannaOwO1520> por eso no prendo tampoco
+[04:37:30] [Async Chat Thread - #33/INFO]: [Not Secure] <HannaOwO1520> la pc va a estallar
+[04:38:41] [User Authenticator #4/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
+[04:38:41] [Server thread/INFO]: BekauseELF[/127.138.209.14:41007] logged in with entity id 51232 at ([world]331.30000001192093, 89.0, 1040.300000011921)
+[04:38:41] [Craft Scheduler Thread - 226 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
+[04:38:44] [Async Chat Thread - #34/INFO]: [Not Secure] <HannaOwO1520> beka
+[04:38:53] [Async Chat Thread - #35/INFO]: [Not Secure] <HannaOwO1520> tenes diorita
+[04:39:01] [Server thread/INFO]: BekauseELF issued server command: /tp Nartic_MC BekauseELF
+[04:39:04] [Async Chat Thread - #34/INFO]: [Not Secure] <HannaOwO1520> vale
+[04:39:15] [Async Chat Thread - #34/INFO]: [Not Secure] <HannaOwO1520> donde estas
+[04:40:13] [Async Chat Thread - #35/INFO]: [Not Secure] <HannaOwO1520> lopera no estas
+[04:40:20] [Async Chat Thread - #34/INFO]: [Not Secure] <HannaOwO1520> a no si
+[04:44:42] [User Authenticator #5/INFO]: UUID of player Pablo14666 is 3c77d3d3-ecba-3bed-b2fe-600e384812a6
+[04:44:42] [Server thread/INFO]: Pablo14666[/127.225.213.229:38127] logged in with entity id 54881 at ([world]221.41795120340726, 66.0, 1087.9805835392135)
+[04:44:42] [Craft Scheduler Thread - 250 - AuthMe/INFO]: [AuthMe] Pablo14666 logged in 127.225.213.229
+[04:45:29] [Async Chat Thread - #36/INFO]: [Not Secure] <HannaOwO1520> beka
+[04:45:32] [Async Chat Thread - #38/INFO]: [Not Secure] <HannaOwO1520> tenes arena
+[04:45:40] [Async Chat Thread - #36/INFO]: [Not Secure] <HannaOwO1520> puto pobre
+[04:45:45] [Async Chat Thread - #38/INFO]: [Not Secure] <HannaOwO1520> que tienes
+[04:47:57] [Server thread/INFO]: [BAGUETTE] BekauseELF[CRACK]  has made the advancement [A Seedy Place]
+[04:48:58] [Server thread/INFO]: BekauseELF lost connection: Timed out
+[04:51:45] [Server thread/INFO]: Nartic_MC lost connection: Timed out
+[04:52:45] [User Authenticator #6/INFO]: UUID of player BekauseELF is c91ae8cb-ab31-33b3-a8f3-ac6326bb2480
+[04:52:45] [Server thread/INFO]: BekauseELF[/127.138.209.14:60791] logged in with entity id 61299 at ([world]337.7865097480268, 92.0, 1040.0878309181987)
+[04:52:46] [Craft Scheduler Thread - 281 - AuthMe/INFO]: [AuthMe] BekauseELF logged in 127.138.209.14
+[04:53:43] [Server thread/INFO]: BekauseELF issued server command: /tp AlejandraOwO HannaOwO1520
+[04:54:00] [Async Chat Thread - #39/INFO]: [Not Secure] <HannaOwO1520> para algo necesitaba la arena
+[04:54:14] [Async Chat Thread - #40/INFO]: [Not Secure] <HannaOwO1520> para muro
+[04:54:31] [Async Chat Thread - #39/INFO]: [Not Secure] <HannaOwO1520> tan temprano
+[04:54:45] [Server thread/INFO]: [PAN] Pablo14666[Tusi]  fell from a high place
+[04:54:55] [Async Chat Thread - #40/INFO]: [Not Secure] <HannaOwO1520> 10/10 el waterdrop
+[04:55:01] [Server thread/INFO]: BekauseELF issued server command: /tp Pablo14666 AlejandraOwO
+[04:56:22] [Async Chat Thread - #41/INFO]: [Not Secure] <HannaOwO1520> la unica manera de conseguir sea lanterns en esta cosa marina
+[04:56:53] [Server thread/INFO]: Pablo14666 lost connection: Timed out
+[04:57:57] [Async Chat Thread - #43/INFO]: [Not Secure] <HannaOwO1520> porque hay un sapo en un grove
+[04:58:28] [Async Chat Thread - #44/INFO]: [Not Secure] <HannaOwO1520> yo desde las 11:00 comienzo a farmear
+[04:58:45] [Server thread/INFO]: AlejandraOwO lost connection: Disconnected
+[04:58:52] [Server thread/INFO]: BekauseELF lost connection: Disconnected
+[04:59:32] [Server thread/INFO]: [Not Secure] [Server] salte
+[04:59:39] [Async Chat Thread - #45/INFO]: [Not Secure] <HannaOwO1520> ya salte
+[04:59:51] [Server thread/INFO]: [Not Secure] [Server] sal del juego tonoto
+[04:59:55] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> voy
+[05:00:28] [Server thread/INFO]: [Not Secure] [Server] 5
+[05:00:30] [Async Chat Thread - #46/INFO]: [Not Secure] <HannaOwO1520> ya bye
+[05:00:35] [Server thread/INFO]: [Not Secure] [Server] 4
+[05:00:40] [Server thread/INFO]: [Not Secure] [Server] 3
+[05:00:42] [Async Chat Thread - #45/INFO]: [Not Secure] <HannaOwO1520> pera pongo el cartel de lugar de hanna
+[05:00:49] [Server thread/INFO]: [Not Secure] [Server] 2
+[05:01:33] [Server thread/INFO]: HannaOwO1520 lost connection: Disconnected
+[05:01:33] [Server thread/INFO]: Villager EntityVillager['Villager'/183, uuid='703b5dbd-a7c4-42aa-9b74-3476cf8103e7', l='ServerLevel[world]', x=272.38, y=61.05, z=553.62, cpos=[17, 34], tl=328043, v=true] died, message: 'Villager drowned'

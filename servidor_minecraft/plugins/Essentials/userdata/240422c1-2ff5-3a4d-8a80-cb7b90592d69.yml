@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1743218348666
-  login: 1743218852425
+  logout: 1743223905341
+  login: 1743219700102
 money: '0'
 last-account-name: Nartic_MC
 lastlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 293.69999998807907
-  y: 69.0
-  z: 472.74432165729684
-  yaw: 176.2912139892578
-  pitch: 32.48115158081055
+  x: 1940.7577314569178
+  y: -25.0
+  z: 2158.980351695159
+  yaw: 31.80078125
+  pitch: 15.880186080932617
 logoutlocation:
   world: e50c8df2-4c61-4acc-92d1-782785c29629
   world-name: world
-  x: 1161.512499988079
-  y: 63.0
-  z: 1412.475555275635
-  yaw: 49.50958251953125
-  pitch: 10.952949523925781
+  x: 579.3000000119209
+  y: 22.0
+  z: 27.435125011920928
+  yaw: -104.13671875
+  pitch: 15.757278442382812
